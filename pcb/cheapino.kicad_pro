@@ -497,6 +497,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -607,6 +608,26 @@
     [
       "9203b006-47ac-4f34-8cc4-2b709e3df56f",
       "Root"
+    ],
+    [
+      "b2f85b86-5933-4a5f-88c2-315afb4ca3cd",
+      "Microcontroller"
+    ],
+    [
+      "ef93f48f-e975-41f5-b90d-770a980a84dd",
+      "KeySwitches"
+    ],
+    [
+      "7b8b7eaa-434c-41c6-a017-c1171f20f2be",
+      "LeftRightMapping"
+    ],
+    [
+      "e6ab333d-5f1a-4b76-81c6-498aebdc0c3b",
+      "ExtConnectors"
+    ],
+    [
+      "23d46689-c88a-4d8a-9ead-5dd5573c8b8b",
+      "Lighting"
     ]
   ],
   "text_variables": {}

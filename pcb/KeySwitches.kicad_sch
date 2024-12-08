@@ -1,0 +1,4477 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f9db3163-da51-44e9-8124-cc61adb4a825")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid -3.0988 -0.0635)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pspice:DIODE"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DIODE"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode symbol for simulation only. Pin order incompatible with official kicad footprints"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DIODE_0_1"
+				(polyline
+					(pts
+						(xy 1.905 2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 -2.54) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DIODE_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 66.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bc25787-2f88-4e5a-9bc5-a6a93020c99b")
+	)
+	(junction
+		(at 124.46 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f9eb2f1-6426-436c-bb9f-cc1bbcbafdc3")
+	)
+	(junction
+		(at 238.76 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12e8fe23-8b53-4114-8ef6-9b7cddc8358b")
+	)
+	(junction
+		(at 38.1 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "256564f3-5c21-4020-b501-bafb1107b37e")
+	)
+	(junction
+		(at 106.68 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26060133-e3d3-434e-b706-681248323e1e")
+	)
+	(junction
+		(at 86.36 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26482cc2-624f-4748-8717-25f4989a85c4")
+	)
+	(junction
+		(at 144.78 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ede5de-5f5a-4d84-adc3-3f8aa7610c82")
+	)
+	(junction
+		(at 200.66 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d9d6bc-8cdd-4473-9128-743de67c737c")
+	)
+	(junction
+		(at 45.72 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a1c756b-fff8-4123-a759-d4acd9690eed")
+	)
+	(junction
+		(at 86.36 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c336441-2a1b-4dfc-ac3d-cebfc9a5cd66")
+	)
+	(junction
+		(at 45.72 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cd1ffb7-f7be-499d-bf34-a4ec05c2b528")
+	)
+	(junction
+		(at 144.78 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445b22a3-f0d4-48db-ae07-76177e452370")
+	)
+	(junction
+		(at 124.46 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b9ea3fa-2ec7-4205-89be-65c42a7f3115")
+	)
+	(junction
+		(at 106.68 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51c51422-2344-41b2-9290-d688e46af651")
+	)
+	(junction
+		(at 182.88 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5832d65e-95bb-45c3-9a11-dc3bf4ba931b")
+	)
+	(junction
+		(at 200.66 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a0f3181-ffab-4e39-b2a0-5b329b31f337")
+	)
+	(junction
+		(at 200.66 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ef97a6-27ba-4a9b-bee7-2f8e80452504")
+	)
+	(junction
+		(at 182.88 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83f13bb5-e5ce-46e9-9edb-fc45e70dca77")
+	)
+	(junction
+		(at 66.04 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b79b2ac-0b10-4f7e-8454-350c2c422ae3")
+	)
+	(junction
+		(at 45.72 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e22214b-5d7c-435c-8c3b-eb15969efcb0")
+	)
+	(junction
+		(at 124.46 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90c321e8-27db-4f6a-82bd-969b0ff7d2d9")
+	)
+	(junction
+		(at 162.56 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94cf21dc-3a9d-4bd2-8d27-bfc4706625c0")
+	)
+	(junction
+		(at 45.72 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9efa9383-e82b-4152-bd30-8f931227cbe2")
+	)
+	(junction
+		(at 220.98 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f328356-8d33-4b05-85e0-3a1f54a18199")
+	)
+	(junction
+		(at 200.66 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b050d5de-8272-44a4-b8ca-fbd504c786b9")
+	)
+	(junction
+		(at 220.98 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef49066-68e2-4d63-b115-22139b580384")
+	)
+	(junction
+		(at 124.46 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1066aca-d1b4-476f-836f-7d0fb908eb83")
+	)
+	(junction
+		(at 144.78 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c58869a6-fa00-4b44-a300-c1dfb7d3a0b4")
+	)
+	(junction
+		(at 162.56 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccbac6de-fdb7-41ea-b7e2-67247d2af8ec")
+	)
+	(junction
+		(at 238.76 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd64770-69d4-4d3b-aa54-9f27f4542c96")
+	)
+	(junction
+		(at 66.04 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db4ed41c-c153-4d8a-80cf-baad7013a137")
+	)
+	(junction
+		(at 220.98 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc2ea5c0-953f-4849-bfbb-4a8adf43e0db")
+	)
+	(junction
+		(at 182.88 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e25c5ba6-a4eb-4ed4-a9e7-a4878c0a1157")
+	)
+	(junction
+		(at 106.68 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f18a2193-2c34-4cbf-bf31-4a3bf9dfb638")
+	)
+	(wire
+		(pts
+			(xy 124.46 26.67) (xy 124.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e667ad-7a0b-43a0-bb6d-d0a0502987d8")
+	)
+	(wire
+		(pts
+			(xy 66.04 55.88) (xy 106.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d14992-88cb-49b5-8c10-f6e4fd9afd5e")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 182.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07fff153-ccea-47df-b2c4-76401cb54b82")
+	)
+	(wire
+		(pts
+			(xy 66.04 55.88) (xy 66.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0966b545-5bb6-46b5-b7e5-8cc365fcc3bc")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 45.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a02603d-6722-4dc3-8295-cd17530c3890")
+	)
+	(wire
+		(pts
+			(xy 220.98 73.66) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b90ca6a-a39f-4cea-8b99-1132cf3ebf0c")
+	)
+	(wire
+		(pts
+			(xy 77.47 138.43) (xy 76.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd8d7bd-2905-4bbb-8e85-04d9e4f0d490")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 31.75 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fab6f9-2129-4f31-b056-cd6e9be03c06")
+	)
+	(wire
+		(pts
+			(xy 82.55 143.51) (xy 82.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abbd4db-1cad-4c84-b3cf-9fd1016906f5")
+	)
+	(wire
+		(pts
+			(xy 200.66 31.75) (xy 238.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af30520-5311-4e8c-a2b6-dab8567eefb8")
+	)
+	(wire
+		(pts
+			(xy 49.53 137.16) (xy 49.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e290018-cb9c-49be-abdf-f7e252b7c915")
+	)
+	(wire
+		(pts
+			(xy 66.04 99.06) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6aa0a5-42e6-4700-ba2b-4cad4f5e5145")
+	)
+	(wire
+		(pts
+			(xy 220.98 48.26) (xy 220.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fb143f-19c7-4061-b4be-6b6809946601")
+	)
+	(wire
+		(pts
+			(xy 38.1 140.97) (xy 60.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234a1419-74a8-4ba8-8553-b87f71de3a94")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d8ee9e-a431-43f8-89b1-5e4ab420ae24")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dfa1d9-f4b1-4107-8791-ae82a2708f30")
+	)
+	(wire
+		(pts
+			(xy 182.88 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e97bba-4c68-4a21-b1f8-b2a3873a65d1")
+	)
+	(wire
+		(pts
+			(xy 59.69 137.16) (xy 59.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9f465c-c14e-4948-9718-64eed1225c68")
+	)
+	(wire
+		(pts
+			(xy 86.36 30.48) (xy 86.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3158e732-9fff-4ea3-ac54-5b92f5ae2977")
+	)
+	(wire
+		(pts
+			(xy 106.68 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3907b8de-a48b-4821-a86b-0cc0803e5954")
+	)
+	(wire
+		(pts
+			(xy 77.47 137.16) (xy 77.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452bca8f-2a85-4842-88c2-9aa4d225874d")
+	)
+	(wire
+		(pts
+			(xy 162.56 48.26) (xy 162.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ad4c34-6ec3-40ef-bf78-795646847d86")
+	)
+	(wire
+		(pts
+			(xy 144.78 48.26) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c60c8c-07a2-4619-9e3e-da6cc4b3e1d9")
+	)
+	(wire
+		(pts
+			(xy 200.66 48.26) (xy 200.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c20c2a-9bb5-4133-be6b-5b7d5b7191c7")
+	)
+	(wire
+		(pts
+			(xy 49.53 144.78) (xy 45.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0f5d79-a90a-411f-8dca-9a6c3b00e011")
+	)
+	(wire
+		(pts
+			(xy 259.08 99.06) (xy 259.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7f7264-5dd4-4193-8e5e-b99ff47dbf8d")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 66.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5100bd28-0dd8-4acc-9825-2433f04084ec")
+	)
+	(wire
+		(pts
+			(xy 38.1 156.21) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c9fa3a-121a-46e5-853a-fca6461eb51a")
+	)
+	(wire
+		(pts
+			(xy 182.88 81.28) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576e08aa-8912-45cd-a75d-17806a4e3fca")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 182.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c46ed23-3c2c-4ab5-bd6b-a676514cf196")
+	)
+	(wire
+		(pts
+			(xy 220.98 55.88) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d30fc11-a7b8-4f23-bbf2-c5d4935a88a4")
+	)
+	(wire
+		(pts
+			(xy 182.88 55.88) (xy 220.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea45c7c-9b55-4216-9c2b-d46210af3e42")
+	)
+	(wire
+		(pts
+			(xy 60.96 144.78) (xy 60.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e6ba04-d400-46be-b46d-b604180f13c8")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66268c64-20ca-494a-ac02-7e55ee4a0fde")
+	)
+	(wire
+		(pts
+			(xy 259.08 73.66) (xy 259.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688f010c-326e-4c31-81fd-cd2cc7564709")
+	)
+	(wire
+		(pts
+			(xy 124.46 30.48) (xy 124.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f7c14b-56f0-4e00-a385-a3e27a5a4a5d")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d5555d-13d4-438a-aaa3-fa5a1c2371a4")
+	)
+	(wire
+		(pts
+			(xy 182.88 99.06) (xy 182.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fafc0b0-cd0e-467b-9a10-c1e129474385")
+	)
+	(wire
+		(pts
+			(xy 259.08 104.14) (xy 220.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80151d95-8974-49ba-a2f2-ebab30da3fbe")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 162.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8048051c-3a76-49bd-87ae-a4d9a7e015f9")
+	)
+	(wire
+		(pts
+			(xy 220.98 81.28) (xy 259.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8116dc7f-4c39-487f-866d-79a07c52cf9e")
+	)
+	(wire
+		(pts
+			(xy 200.66 73.66) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877717cd-e14d-4eb0-995c-5dfc0f0bd083")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d99579-9f9e-400d-b10f-cf4d7a169c94")
+	)
+	(wire
+		(pts
+			(xy 106.68 73.66) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c829a87-773e-4973-a946-2bfed6cf40e6")
+	)
+	(wire
+		(pts
+			(xy 59.69 144.78) (xy 60.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d556df2-7535-40e2-8561-da38f6ac7376")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9957e8-3ffb-4587-8b78-a7a5e32fef73")
+	)
+	(wire
+		(pts
+			(xy 30.48 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee43468-414a-457f-a3dc-94b24009f1a6")
+	)
+	(wire
+		(pts
+			(xy 182.88 48.26) (xy 182.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eff65ad-2f44-4815-b13b-dcca4cfd7fba")
+	)
+	(wire
+		(pts
+			(xy 87.63 137.16) (xy 200.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b29991-7f32-4f5a-a7e7-84d6b4346dfb")
+	)
+	(wire
+		(pts
+			(xy 45.72 30.48) (xy 45.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968503a1-e48b-4045-9fcb-943ed134ac25")
+	)
+	(wire
+		(pts
+			(xy 162.56 30.48) (xy 124.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7e40e1-e52c-4876-aee2-2e1161726710")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 238.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba5d5c6-dce0-4776-8544-0b1355744b77")
+	)
+	(wire
+		(pts
+			(xy 76.2 143.51) (xy 82.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c5835b-ad51-4c22-b37e-cfcf25e43904")
+	)
+	(wire
+		(pts
+			(xy 238.76 31.75) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14e003f-aeac-4347-b0f5-e5e257e80125")
+	)
+	(wire
+		(pts
+			(xy 200.66 31.75) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4734ff6-fb28-4d51-918a-1171816210f3")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b6b9fb-731e-42c5-bc22-699c70bb3197")
+	)
+	(wire
+		(pts
+			(xy 49.53 127) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dc304c-8a4c-4cf8-9faf-f9a721081b23")
+	)
+	(wire
+		(pts
+			(xy 45.72 30.48) (xy 86.36 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b6d1bc-1a71-4700-b420-7021a9e422ef")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b930943a-6837-4535-99b2-eec6ffde57c4")
+	)
+	(wire
+		(pts
+			(xy 106.68 99.06) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7e895b-9f35-4812-a093-d32466ee87ef")
+	)
+	(wire
+		(pts
+			(xy 200.66 26.67) (xy 200.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbe9220-dd0c-48ad-9c67-4fbe94b83fdf")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 45.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a6137a-e6e0-4d3a-b5b9-2fabc638d16e")
+	)
+	(wire
+		(pts
+			(xy 238.76 73.66) (xy 238.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c456e166-486d-4017-8baa-2d2bae6e9898")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 31.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c957919f-f912-49db-ad29-d309373cb51e")
+	)
+	(wire
+		(pts
+			(xy 82.55 156.21) (xy 38.1 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b27987-3b03-4c21-8c2d-2902b219688b")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac78bf0-2eef-41f1-8ab4-bb0803778978")
+	)
+	(wire
+		(pts
+			(xy 106.68 48.26) (xy 106.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5fe9e4-295a-4cda-99bf-13f9ab44d8c2")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7cd1ec-e565-4cce-ad56-90c269f2d112")
+	)
+	(wire
+		(pts
+			(xy 124.46 48.26) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5c927a-1fed-4c3d-af2c-36549dce3ee0")
+	)
+	(wire
+		(pts
+			(xy 31.75 55.88) (xy 66.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db36cec3-9e88-465a-991e-cf3bc2d21e1c")
+	)
+	(wire
+		(pts
+			(xy 220.98 99.06) (xy 220.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11aed30-a90b-4f9f-ba00-678b619a7ad7")
+	)
+	(wire
+		(pts
+			(xy 59.69 138.43) (xy 60.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e161ba51-e206-45cb-8eb8-010d6306faee")
+	)
+	(wire
+		(pts
+			(xy 200.66 99.06) (xy 200.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f79192-c35a-4b8e-82d2-82585c013e51")
+	)
+	(wire
+		(pts
+			(xy 86.36 73.66) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e532f22f-55e0-4fa8-b010-3165ea058bb8")
+	)
+	(wire
+		(pts
+			(xy 124.46 73.66) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7227330-2c69-4b2a-9be1-3e7744963991")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f790becb-8b31-457c-9f6b-ba49312c0e59")
+	)
+	(wire
+		(pts
+			(xy 259.08 48.26) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd931359-2131-47c3-b22d-d0277ee36075")
+	)
+	(wire
+		(pts
+			(xy 124.46 127) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff184287-c05d-4a91-a9bb-0a68c826e545")
+	)
+	(wire
+		(pts
+			(xy 45.72 99.06) (xy 45.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4bfc96-f52b-46f4-94b4-7f58b7084fab")
+	)
+	(hierarchical_label "ROW_2"
+		(shape input)
+		(at 31.75 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ef1b651-9d11-4826-8def-734afdd37687")
+	)
+	(hierarchical_label "COL_2"
+		(shape input)
+		(at 124.46 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2afa445b-e8a2-46fc-a6aa-713ed098e32c")
+	)
+	(hierarchical_label "ROW_4"
+		(shape input)
+		(at 30.48 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3085ee71-50aa-48a6-9620-e1bdb5facfd5")
+	)
+	(hierarchical_label "COL_3"
+		(shape input)
+		(at 45.72 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "596b59ae-45bb-492b-b551-8f10b1ec7e52")
+	)
+	(hierarchical_label "COL_1"
+		(shape input)
+		(at 200.66 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b26bb80c-e4ec-47db-82a0-2778a5bec0fe")
+	)
+	(hierarchical_label "ROW_3"
+		(shape input)
+		(at 31.75 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dda34a4b-394f-433f-b896-13ce28f3a4b7")
+	)
+	(hierarchical_label "ROW_1"
+		(shape input)
+		(at 31.75 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e558a189-ba1e-4da2-8c29-fd3e4a4f7cce")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 50.8 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dfbb0af-019b-4046-9599-d0b60305c6e5")
+		(property "Reference" "K1"
+			(at 50.8 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c3a3a32-8f4f-4c2c-8ba7-fee31c41cd58")
+		)
+		(pin "2"
+			(uuid "6ceb8ac9-9e8c-490c-be7d-4dddf783d355")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 91.44 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ffc3a79-25c6-4a27-8f04-3d2e0660f5d8")
+		(property "Reference" "K4"
+			(at 91.44 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 91.44 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e0a116-1175-4b25-9b25-e5eabf6996c3")
+		)
+		(pin "2"
+			(uuid "9c389cfa-ec5f-4476-9f8f-fe7833ca8aff")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a77becf-d95a-43fc-9c9e-b2e35750a606")
+		(property "Reference" "K7"
+			(at 129.54 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9863268b-a89a-43d0-bd6e-9dd688333405")
+		)
+		(pin "2"
+			(uuid "882b6584-abbd-4a40-a5bd-ade13ada7b0c")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 254 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa80908-440a-45bf-9914-a0936fe44e62")
+		(property "Reference" "D19"
+			(at 254 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 254 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31f9e059-61e6-47a9-96cd-f32304dd4714")
+		)
+		(pin "2"
+			(uuid "e1bd1fe7-8c0d-465c-b0a1-0d7b49cc7770")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 101.6 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fb30038-6e41-4e52-a1bc-923cdbc387c8")
+		(property "Reference" "D8"
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 101.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56556958-c780-49cf-ae27-a647e39f1459")
+		)
+		(pin "2"
+			(uuid "a1b91475-997e-46ca-b7c5-62057dc5147f")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 215.9 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "286f27a9-e1ee-4955-87e9-d108076f7daa")
+		(property "Reference" "D16"
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 215.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05e17663-71fb-4cdc-bc03-67109eb7c21d")
+		)
+		(pin "2"
+			(uuid "db43debd-0383-4d1b-bdc0-f14be08da450")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 54.61 144.78 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b7fa8af-d91f-4b5b-a797-95ae9ffbfe14")
+		(property "Reference" "D2"
+			(at 54.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 54.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 54.61 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dd384e1-472f-4fd6-98ff-31a30f5fdcd4")
+		)
+		(pin "2"
+			(uuid "c1e4c16b-be16-4fd8-8d72-6182afdda421")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 101.6 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be9e8ab-c14d-4532-94de-dcd6813fa747")
+		(property "Reference" "D9"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d08213c-8317-467f-ae90-762434c5b8b5")
+		)
+		(pin "2"
+			(uuid "8fc82a4f-e53e-4cac-b4c2-c5660bdd9655")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 167.64 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eb03d7d-aaa8-4005-a246-2624007795dc")
+		(property "Reference" "K12"
+			(at 167.64 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 167.64 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d847a28-930f-4a4a-a45f-68d469f219cd")
+		)
+		(pin "2"
+			(uuid "da3b18cb-3978-4e05-82ee-3bf9935063c2")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 91.44 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a95f457-c1bf-4e76-9721-53b32488e0e1")
+		(property "Reference" "K5"
+			(at 91.44 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 91.44 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7432b87e-01ce-4583-bcd4-aa9715e43bf3")
+		)
+		(pin "2"
+			(uuid "03cbaca3-5f07-46ce-b1ef-edf5fbb4519e")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 254 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605f4989-e8d4-4e5c-9910-c00279a3eba0")
+		(property "Reference" "D21"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde867a4-900f-4c1e-92cb-ea772eddf9e9")
+		)
+		(pin "2"
+			(uuid "578919ba-3721-403c-8c80-0de62840368e")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 139.7 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "606bc8be-a6e8-47d0-b66a-106d388a5187")
+		(property "Reference" "D11"
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e383359b-b7d7-4155-9998-3c6aab367b11")
+		)
+		(pin "2"
+			(uuid "be41d58d-a72c-4730-bbd3-2c372da2ff61")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 215.9 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61327662-0efd-4ba0-8914-a5a717536603")
+		(property "Reference" "D18"
+			(at 215.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20cfa45f-1b4d-4c25-b125-7a28b4f21382")
+		)
+		(pin "2"
+			(uuid "bacd9648-1fe8-4b5a-80f8-28b212d8390b")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "689c16c2-0a75-4a6b-88f7-0e64cf46845f")
+		(property "Reference" "K14"
+			(at 205.74 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 205.74 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc5f18d-10a9-4f43-ab55-e97bc1bf654d")
+		)
+		(pin "2"
+			(uuid "a61f5258-e1e8-45a4-8d3e-6a5da3703e02")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "698369e1-cc61-4900-92ba-8faee4d64454")
+		(property "Reference" "K15"
+			(at 205.74 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 205.74 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0b291ce-fd05-4f8f-8fda-cb997d922684")
+		)
+		(pin "2"
+			(uuid "3b1f25ce-5b71-4a82-aeda-10a38fa44fe5")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 139.7 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c4c90f6-8a23-4c75-9cb9-f754b7dcd2a6")
+		(property "Reference" "D10"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1730cdfe-8fde-498e-8817-38ab40e38bd0")
+		)
+		(pin "2"
+			(uuid "e4e606e6-844a-4c12-bafd-e26bcd6e7d5b")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 254 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ef9f797-15a9-4c3b-962b-14ab97c2d7c6")
+		(property "Reference" "D20"
+			(at 254 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 254 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 254 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "495d5889-41ed-4126-9e61-8049b35f19ee")
+		)
+		(pin "2"
+			(uuid "65bc56c4-c978-43d0-a268-b6057434c469")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 101.6 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f101042-b050-4717-b46c-41a71d8ed9a4")
+		(property "Reference" "D7"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dda4ce3-e9b8-425c-b2fd-9d6cfaf38177")
+		)
+		(pin "2"
+			(uuid "04de0047-6db4-4602-af12-8c509df24972")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 167.64 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75f11ac0-524a-4db2-9feb-da47f6bced3a")
+		(property "Reference" "K10"
+			(at 167.64 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 167.64 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa6a389d-e336-4e56-8fec-be339c4ffcb4")
+		)
+		(pin "2"
+			(uuid "097dc3b1-9e3f-4e8d-a8a8-22d3ee5d1422")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 82.55 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "766c559f-aa99-46ea-b39e-533335da1090")
+		(property "Reference" "D6"
+			(at 82.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45fe377c-a1e1-483f-abb1-e86687b20268")
+		)
+		(pin "2"
+			(uuid "9c2a1884-0cb4-4bd1-83a9-9ecd76d6dd1c")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 215.9 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e7ecf26-36c8-421f-96e5-1a3f7960bbd8")
+		(property "Reference" "D17"
+			(at 215.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 215.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dce5782-4a5d-4678-bf26-a67385d4fcbd")
+		)
+		(pin "2"
+			(uuid "45b47dbe-8955-47c4-bf64-e9b6480b2866")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 139.7 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f248dbb-9d2f-47cb-b6f2-d3790ef81dfe")
+		(property "Reference" "D12"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2676fd7c-3168-4288-a8f8-44347d74ddb2")
+		)
+		(pin "2"
+			(uuid "5764027a-7cf3-4dcc-b65b-390b631e408a")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 177.8 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "893b5886-058d-404c-ab58-020dd5296c65")
+		(property "Reference" "D14"
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "957675cb-c828-4455-8103-0ef9fb2cf13e")
+		)
+		(pin "2"
+			(uuid "7986374d-21c2-406a-9e27-76e3a95c6d55")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "920118ba-8371-4f32-9d35-a0a9526d11f3")
+		(property "Reference" "K13"
+			(at 205.74 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 205.74 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 205.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef42f37e-a353-4d0c-af85-4efe455c8041")
+		)
+		(pin "2"
+			(uuid "ba2d865d-86f9-419d-8aee-a5e821e8a9c4")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 60.96 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "941ae2d0-31a8-47bc-a08b-0c74d8e6a62d")
+		(property "Reference" "D3"
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_axial"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a00ab2e5-3514-4721-933f-350f8cd78ac5")
+		)
+		(pin "2"
+			(uuid "92e80515-44ae-4cdd-a5ef-e970d4b274d3")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 50.8 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d833988-cf71-4708-bfca-a9d6589eaa88")
+		(property "Reference" "K3"
+			(at 50.8 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39513b72-17f5-4f03-9560-c5e6a592034e")
+		)
+		(pin "2"
+			(uuid "440c5590-c435-41f1-b8d1-3345d057fb68")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 54.61 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0b2ced0-1e0a-4dc3-a9ca-0a7a4236ddef")
+		(property "Reference" "D1"
+			(at 54.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dce6cb5-da50-48bd-a3a5-8a9ecea26d2d")
+		)
+		(pin "2"
+			(uuid "3669a7e4-670d-4669-8a1b-532efdfbdfc8")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 167.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a48fc446-dc14-40ce-8126-e6049c1f3f21")
+		(property "Reference" "K11"
+			(at 167.64 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 167.64 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4225a4f7-accf-4a68-843e-74ae71e47640")
+		)
+		(pin "2"
+			(uuid "602433d6-17a3-4a84-a664-842d5d2c1ad7")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 50.8 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b058a7-a613-4860-ae86-0bfc6a0f779a")
+		(property "Reference" "K2"
+			(at 50.8 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f46216c2-a71d-455a-a557-9e3711931d52")
+		)
+		(pin "2"
+			(uuid "118cf16a-17fb-497d-980f-4e5b671a1ff4")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 243.84 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a845e981-64b3-44e5-aa72-3a5ed8169482")
+		(property "Reference" "K17"
+			(at 243.84 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 243.84 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 243.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9621b694-4932-4767-9168-ab42ac57a824")
+		)
+		(pin "2"
+			(uuid "a9ae127f-e2aa-4b4d-a835-f415ec4c4cc4")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 68.58 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad9c7841-e506-4480-b197-5967a18774b0")
+		(property "Reference" "ENC1"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 68.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 64.77 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "dafd7113-35ec-451f-b14a-b804156b1892")
+		)
+		(pin "B"
+			(uuid "9b1b8c23-e014-4aed-a13a-2bfb5d623a55")
+		)
+		(pin "C"
+			(uuid "a26576a0-76b8-4644-b507-cf97c1d47b7e")
+		)
+		(pin "S1"
+			(uuid "6eab8f95-b0b8-44bc-8e39-9da6a9c14482")
+		)
+		(pin "S2"
+			(uuid "7238d348-efe6-4a40-bbdf-c9932fc78ff0")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "ENC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 177.8 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13a8943-4669-4f0b-a734-91864f5de067")
+		(property "Reference" "D13"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 177.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4de16484-f0f5-4f0e-84d3-f450b03ad557")
+		)
+		(pin "2"
+			(uuid "4e28d418-c299-4144-b8f1-0b7629b21a61")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 243.84 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b26fd511-5f87-4496-a090-894726c10230")
+		(property "Reference" "K18"
+			(at 243.84 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 243.84 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29eab34b-901a-4da1-888c-fca65bd22d62")
+		)
+		(pin "2"
+			(uuid "7dbbd304-baef-49be-9dfa-152758eeec15")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9091249-528a-4c61-9128-6de5ccd1242d")
+		(property "Reference" "K8"
+			(at 129.54 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a71ed45-7af8-435b-80c5-c3f9fa8208d5")
+		)
+		(pin "2"
+			(uuid "44aff3fe-9c81-48d1-a4c9-f231acd6044d")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beed2e0b-8e57-4657-b611-5bec02b0ce28")
+		(property "Reference" "K9"
+			(at 129.54 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aaad072-da70-4095-9e46-1132a2501759")
+		)
+		(pin "2"
+			(uuid "f6926d4f-395d-4838-a41f-903b23fbd371")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 91.44 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d954a90b-ebf0-4b3a-a38f-87c2e9c8e8f9")
+		(property "Reference" "K6"
+			(at 91.44 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 91.44 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b380008a-47b2-4cfa-86ea-d2ec6be3835b")
+		)
+		(pin "2"
+			(uuid "54193845-d235-40b4-b662-9024dd466839")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 243.84 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e329b5be-76c0-49be-b96a-9ccb1acf4d4c")
+		(property "Reference" "K16"
+			(at 243.84 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 243.84 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+			(at 243.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b862f9f-06fa-4cc7-a638-c57fbd407fe1")
+		)
+		(pin "2"
+			(uuid "5eca5223-87b2-41ac-8ea4-994323bd3225")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "K16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 60.96 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee85cbeb-b1d6-4c15-83ef-777062e8980c")
+		(property "Reference" "D4"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d9fa12f-3b33-4951-b8cb-005856a23c81")
+		)
+		(pin "2"
+			(uuid "44ca6399-c0d9-4062-b568-0efe59fff30d")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 177.8 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f10caaac-1057-447b-a74f-147ca0d328e1")
+		(property "Reference" "D15"
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "accbc89d-354e-4bfc-a402-d03ca1a14523")
+		)
+		(pin "2"
+			(uuid "a43bf546-2032-465f-bc10-2a196657b0cd")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 60.96 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbb8241a-f0a6-4b73-8795-d177f9c48ec4")
+		(property "Reference" "D5"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keebio:Diode-dual"
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db37d217-0889-4f7d-8422-8ef5490088cf")
+		)
+		(pin "2"
+			(uuid "0e25a964-06e9-44af-b3ac-900a1538542e")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
