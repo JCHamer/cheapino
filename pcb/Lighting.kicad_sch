@@ -1502,16 +1502,6 @@
 		)
 		(uuid "d5028cbc-5862-450a-9683-c4224058341b")
 	)
-	(text "Add protection for 5V stability on USB VBus if switching to 5V variant?"
-		(exclude_from_sim no)
-		(at 78.994 29.718 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51f02f33-c38c-46c2-8544-19b3fa669ed8")
-	)
 	(text "DNP"
 		(exclude_from_sim no)
 		(at 88.9 41.148 0)
