@@ -1763,7 +1763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 50.8 43.18 0)
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -1899,7 +1899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -2308,7 +2308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 167.64 93.98 0)
 			(effects
 				(font
@@ -2376,7 +2376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 91.44 68.58 0)
 			(effects
 				(font
@@ -2650,7 +2650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 205.74 68.58 0)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -3333,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -3402,7 +3402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard_parts:D_SOD123_axial"
+		(property "Footprint" "keebio:Diode-dual"
 			(at 60.96 48.26 0)
 			(effects
 				(font
@@ -3470,7 +3470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 50.8 93.98 0)
 			(effects
 				(font
@@ -3605,7 +3605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 167.64 68.58 0)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -3741,7 +3741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 243.84 68.58 0)
 			(effects
 				(font
@@ -3954,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -4022,7 +4022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 129.54 68.58 0)
 			(effects
 				(font
@@ -4090,7 +4090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 129.54 93.98 0)
 			(effects
 				(font
@@ -4158,7 +4158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 91.44 93.98 0)
 			(effects
 				(font
@@ -4226,7 +4226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Kailh_socket_MX_optional_reversible"
+		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
 			(at 243.84 43.18 0)
 			(effects
 				(font

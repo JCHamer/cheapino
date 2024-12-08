@@ -852,7 +852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
 			(at 31.75 175.26 0)
 			(effects
 				(font
@@ -916,7 +916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
 			(at 31.75 185.42 0)
 			(effects
 				(font
@@ -980,7 +980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
 			(at 31.75 180.34 0)
 			(effects
 				(font
