@@ -1377,10 +1377,26 @@
 		(uuid "8268dc5e-ecb0-4a0c-842b-60a38fb7193b")
 	)
 	(junction
-		(at 110.49 49.53)
+		(at 118.11 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5374c18-4409-449e-b140-fd23ecde8ccf")
+	)
+	(junction
+		(at 125.73 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db1cc141-bbe4-4928-bcbd-ce06f16270a1")
+	)
+	(wire
+		(pts
+			(xy 115.57 36.83) (xy 115.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036d928b-3ba9-4501-9d19-3ca75dbb8a3a")
 	)
 	(wire
 		(pts
@@ -1414,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 77.47) (xy 110.49 77.47)
+			(xy 92.71 77.47) (xy 118.11 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1444,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 49.53) (xy 110.49 49.53)
+			(xy 105.41 49.53) (xy 118.11 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1454,13 +1470,33 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 77.47) (xy 110.49 49.53)
+			(xy 125.73 36.83) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9e620f-b0e6-4ed8-8398-0badf871eab3")
+	)
+	(wire
+		(pts
+			(xy 118.11 77.47) (xy 118.11 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "74173728-9900-441d-98a6-c04186cb79ae")
+	)
+	(wire
+		(pts
+			(xy 138.43 36.83) (xy 138.43 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d99a559-fba2-4330-a58b-8523e2d2bf49")
 	)
 	(wire
 		(pts
@@ -1474,6 +1510,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 36.83) (xy 125.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e751c1c-9b61-45ad-a4fc-d2a1acb0741e")
+	)
+	(wire
+		(pts
 			(xy 54.61 36.83) (xy 54.61 44.45)
 		)
 		(stroke
@@ -1481,6 +1527,16 @@
 			(type default)
 		)
 		(uuid "a1ac86b0-af90-4fc5-8861-026f651ef9cf")
+	)
+	(wire
+		(pts
+			(xy 115.57 36.83) (xy 125.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d44e17-c5e9-4c1e-9609-4784e55177d4")
 	)
 	(wire
 		(pts
@@ -1514,7 +1570,7 @@
 	)
 	(text "1528-1542-ND"
 		(exclude_from_sim no)
-		(at 132.334 41.656 0)
+		(at 139.954 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1693,7 +1749,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 57.15 0)
+		(at 125.73 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1702,7 +1758,7 @@
 		(fields_autoplaced yes)
 		(uuid "170de763-a6c2-4028-8575-1a078675f8d4")
 		(property "Reference" "#PWR026"
-			(at 118.11 63.5 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 62.23 0)
+			(at 125.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 57.15 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 57.15 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 57.15 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,6 +1808,76 @@
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/23d46689-c88a-4d8a-9ead-5dd5573c8b8b"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 138.43 30.48 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34579620-0280-4dce-9f71-ca8fbc2e6ab8")
+		(property "Reference" "JP9"
+			(at 140.97 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_DriveAs5V"
+			(at 140.97 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 138.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 138.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "895eb7b8-55d2-4e8a-9bc0-adbfc75b5130")
+		)
+		(pin "1"
+			(uuid "d7718a7b-e3cb-4443-a5f5-632b27ea94d3")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/23d46689-c88a-4d8a-9ead-5dd5573c8b8b"
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -1972,6 +2098,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 115.57 30.48 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69b5f8b4-ba2b-417e-ac2a-4540af8f8344")
+		(property "Reference" "JP8"
+			(at 118.11 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_DriveAs3V3"
+			(at 118.11 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 115.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 115.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73f23078-9106-4017-92ac-2afb60f1c62d")
+		)
+		(pin "1"
+			(uuid "c6149fd1-5df5-4516-97de-0aa63cc50456")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/23d46689-c88a-4d8a-9ead-5dd5573c8b8b"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 67.31 39.37 0)
 		(unit 1)
@@ -2037,8 +2233,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 115.57 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a140cfbb-1f4a-4a02-823f-44b090278c6a")
+		(property "Reference" "#PWR012"
+			(at 115.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 115.57 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c71e264-a711-43cf-bdcf-ac7293fd6696")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/23d46689-c88a-4d8a-9ead-5dd5573c8b8b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812MINI")
-		(at 118.11 49.53 0)
+		(at 125.73 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2047,7 +2309,7 @@
 		(fields_autoplaced yes)
 		(uuid "a519d577-2105-4ff7-ab68-513399fa6a1b")
 		(property "Reference" "D22"
-			(at 130.81 43.2114 0)
+			(at 138.43 43.2114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2317,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 130.81 45.7514 0)
+			(at 138.43 45.7514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2325,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 119.38 57.15 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2335,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 120.65 59.055 0)
+			(at 128.27 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2345,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 118.11 49.53 0)
+			(at 125.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2442,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 118.11 41.91 0)
+		(at 138.43 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2189,7 +2451,7 @@
 		(fields_autoplaced yes)
 		(uuid "d82cbc32-9fbc-4b8d-ab2d-34d467ac86c3")
 		(property "Reference" "#PWR025"
-			(at 118.11 45.72 0)
+			(at 138.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2460,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 118.11 36.83 0)
+			(at 138.43 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 41.91 0)
+			(at 138.43 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 41.91 0)
+			(at 138.43 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 118.11 41.91 0)
+			(at 138.43 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
