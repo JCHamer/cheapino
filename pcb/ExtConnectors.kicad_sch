@@ -5626,13 +5626,13 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 102.87 90)
+		(at 190.5 102.87 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34221e7e-6cdb-411a-ae2c-60eb01d5af0e")
 		(property "Reference" "R2"
 			(at 190.5 96.52 90)
@@ -6318,6 +6318,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 232.41 52.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6325,7 +6326,7 @@
 		(dnp no)
 		(uuid "6a963d07-d097-49cb-9622-49c574f1ac89")
 		(property "Reference" "R3"
-			(at 234.95 50.7999 0)
+			(at 234.95 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6335,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 234.95 53.3399 0)
+			(at 234.95 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)

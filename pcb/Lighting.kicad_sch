@@ -2308,7 +2308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a519d577-2105-4ff7-ab68-513399fa6a1b")
-		(property "Reference" "D22"
+		(property "Reference" "D19"
 			(at 138.43 43.2114 0)
 			(effects
 				(font
@@ -2368,7 +2368,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/23d46689-c88a-4d8a-9ead-5dd5573c8b8b"
-					(reference "D22")
+					(reference "D19")
 					(unit 1)
 				)
 			)
