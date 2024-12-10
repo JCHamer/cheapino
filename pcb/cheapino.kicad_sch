@@ -151,12 +151,6 @@
 		(uuid "dbfd03d8-d426-45a9-b5d7-61b7abfdac00")
 	)
 	(junction
-		(at 161.29 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e78bd0cc-47a4-4b3f-ab59-3b2b60330406")
-	)
-	(junction
 		(at 184.15 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -440,16 +434,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 121.92) (xy 161.29 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7127312d-7d1f-42c9-a152-814bd0bf9aa4")
-	)
-	(wire
-		(pts
 			(xy 166.37 116.84) (xy 138.43 116.84)
 		)
 		(stroke
@@ -480,16 +464,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 66.04) (xy 161.29 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82287cfd-e1ff-4cad-9dd8-df43c6d58962")
-	)
-	(wire
-		(pts
 			(xy 166.37 60.96) (xy 209.55 60.96)
 		)
 		(stroke
@@ -517,26 +491,6 @@
 			(type default)
 		)
 		(uuid "99169029-15e9-4305-bd82-32e894197d46")
-	)
-	(wire
-		(pts
-			(xy 161.29 66.04) (xy 152.4 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc7e52d-7533-440e-bcda-49fb99b54d75")
-	)
-	(wire
-		(pts
-			(xy 209.55 66.04) (xy 161.29 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3e580b-7ada-4038-b287-dc8163b044d6")
 	)
 	(wire
 		(pts
@@ -780,6 +734,134 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
+		(at 48.26 185.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bbddd12-d324-4e4a-b2d1-7b0dea2ba12c")
+		(property "Reference" "FID6"
+			(at 50.8 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 50.8 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 48.26 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c1cf44f-7ccb-4904-b706-915eb8aad539")
+		(property "Reference" "FID5"
+			(at 50.8 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 50.8 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f"
+					(reference "FID5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
 		(at 31.75 175.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -837,6 +919,70 @@
 			(project ""
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 48.26 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b77d0b4-2c9c-4e97-b9bd-c7232aa3b78c")
+		(property "Reference" "FID4"
+			(at 50.8 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 50.8 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 48.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 48.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f"
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -1096,16 +1242,6 @@
 			)
 			(uuid "58535b47-f5a7-47d1-80b7-462d0247203c")
 		)
-		(pin "R_ROW_4" input
-			(at 138.43 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0450b9e2-5d72-45e0-acf7-5218c48b0616")
-		)
 		(pin "R_COL_1" input
 			(at 138.43 97.79 0)
 			(effects
@@ -1196,16 +1332,6 @@
 			)
 			(uuid "d0a6cb95-adfd-40f9-b775-a7aad8c78297")
 		)
-		(pin "ROW_4" input
-			(at 101.6 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "af8c7cd8-349f-4d0c-80dd-7d5dbd2503ec")
-		)
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f"
@@ -1263,26 +1389,6 @@
 				(justify left)
 			)
 			(uuid "b5b2a237-299d-4935-9b68-fcd6f03152d9")
-		)
-		(pin "R_ROW_4" input
-			(at 152.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c3a45cf9-dffd-4072-9a49-a389abffb938")
-		)
-		(pin "ROW_4" input
-			(at 113.03 68.58 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fe5ff5d0-c324-4191-9405-a01b9dc8d135")
 		)
 		(pin "R_ROW_3" input
 			(at 152.4 63.5 0)
@@ -1491,16 +1597,6 @@
 				(justify left)
 			)
 			(uuid "4b508427-d252-4d8e-8cb1-ebff8af9cb89")
-		)
-		(pin "R_ROW_4" input
-			(at 209.55 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ae4a1427-8ab5-437d-9ba9-8a6274750c39")
 		)
 		(pin "R_COL_1" input
 			(at 209.55 44.45 180)
