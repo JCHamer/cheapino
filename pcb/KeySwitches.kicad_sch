@@ -3648,4 +3648,42 @@
 			)
 		)
 	)
+	(sheet
+		(at 45.085 115.57)
+		(size 24.765 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc073b32-3516-47a2-b7fe-c6a183bbcdfa")
+		(property "Sheetname" "KeySwitch_RGB"
+			(at 45.085 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 45.085 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "7")
+				)
+			)
+		)
+	)
 )

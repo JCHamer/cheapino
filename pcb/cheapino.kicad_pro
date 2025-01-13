@@ -618,16 +618,16 @@
       "KeySwitches"
     ],
     [
-      "7b8b7eaa-434c-41c6-a017-c1171f20f2be",
-      "LeftRightMapping"
-    ],
-    [
       "e6ab333d-5f1a-4b76-81c6-498aebdc0c3b",
       "ExtConnectors"
     ],
     [
       "23d46689-c88a-4d8a-9ead-5dd5573c8b8b",
       "Lighting"
+    ],
+    [
+      "fc073b32-3516-47a2-b7fe-c6a183bbcdfa",
+      "KeySwitch_RGB"
     ]
   ],
   "text_variables": {}
