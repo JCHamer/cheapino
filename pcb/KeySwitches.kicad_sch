@@ -5,24 +5,24 @@
 	(uuid "f9db3163-da51-44e9-8124-cc61adb4a825")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Switch:SW_Push"
+		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,150 +30,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "pspice:DIODE"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DIODE"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -190,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode symbol for simulation only. Pin order incompatible with official kicad footprints"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -199,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "simulation"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -208,37 +65,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "DIODE_0_1"
-				(polyline
-					(pts
-						(xy 1.905 2.54) (xy 1.905 -2.54)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.905 2.54) (xy -1.905 -2.54) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "DIODE_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "K"
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -253,10 +106,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -275,854 +128,1342 @@
 		)
 	)
 	(junction
-		(at 66.04 104.14)
+		(at 105.41 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0bc25787-2f88-4e5a-9bc5-a6a93020c99b")
+		(uuid "080443f0-efc4-409c-b9e2-2dfcef9202a8")
 	)
 	(junction
-		(at 238.76 48.26)
+		(at 102.87 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12e8fe23-8b53-4114-8ef6-9b7cddc8358b")
+		(uuid "12c6ac62-26ba-452a-9cb9-3c546b56b187")
 	)
 	(junction
-		(at 106.68 104.14)
+		(at 71.12 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26060133-e3d3-434e-b706-681248323e1e")
+		(uuid "308ec302-7ba2-4b63-9133-431cb374accf")
 	)
 	(junction
-		(at 86.36 48.26)
+		(at 71.12 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26482cc2-624f-4748-8717-25f4989a85c4")
+		(uuid "378d2d8e-ac00-4a42-9639-25751e950a3c")
 	)
 	(junction
-		(at 144.78 81.28)
+		(at 71.12 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37ede5de-5f5a-4d84-adc3-3f8aa7610c82")
+		(uuid "39c9764c-1be6-4f93-9011-784021bdb5f6")
 	)
 	(junction
-		(at 200.66 73.66)
+		(at 68.58 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39d9d6bc-8cdd-4473-9128-743de67c737c")
+		(uuid "42a5eaaa-d144-461c-8262-0de8e11f259d")
 	)
 	(junction
-		(at 45.72 48.26)
+		(at 171.45 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a1c756b-fff8-4123-a759-d4acd9690eed")
+		(uuid "439a3791-72c9-431e-b6b7-5cc0bac6db4a")
 	)
 	(junction
-		(at 86.36 73.66)
+		(at 137.16 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c336441-2a1b-4dfc-ac3d-cebfc9a5cd66")
+		(uuid "5501baca-b27b-4399-89a7-33cd5d910e85")
 	)
 	(junction
-		(at 45.72 30.48)
+		(at 36.83 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cd1ffb7-f7be-499d-bf34-a4ec05c2b528")
+		(uuid "581d2404-5ca5-4577-a428-512347d5ad68")
 	)
 	(junction
-		(at 144.78 104.14)
+		(at 105.41 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "445b22a3-f0d4-48db-ae07-76177e452370")
+		(uuid "6122140a-72eb-4b0a-b89e-71318cd17aa0")
 	)
 	(junction
-		(at 124.46 48.26)
+		(at 139.7 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b9ea3fa-2ec7-4205-89be-65c42a7f3115")
+		(uuid "624261e0-17b8-446b-9122-7ad5911d9a57")
 	)
 	(junction
-		(at 106.68 81.28)
+		(at 105.41 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "51c51422-2344-41b2-9290-d688e46af651")
+		(uuid "62ab82cc-3868-46b8-bc06-d627f4f0d396")
 	)
 	(junction
-		(at 182.88 104.14)
+		(at 36.83 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5832d65e-95bb-45c3-9a11-dc3bf4ba931b")
+		(uuid "62c2e237-d1e7-4917-8b74-00a91eeff22f")
 	)
 	(junction
-		(at 200.66 31.75)
+		(at 137.16 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a0f3181-ffab-4e39-b2a0-5b329b31f337")
+		(uuid "6a655e33-f9aa-4d97-96cd-fea51178f2fa")
 	)
 	(junction
-		(at 200.66 48.26)
+		(at 36.83 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81ef97a6-27ba-4a9b-bee7-2f8e80452504")
+		(uuid "71be7826-0d51-4484-85cd-8b5a536409f6")
 	)
 	(junction
-		(at 182.88 55.88)
+		(at 139.7 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83f13bb5-e5ce-46e9-9edb-fc45e70dca77")
+		(uuid "7fb92651-a9c2-40d3-b323-499ea6c79974")
 	)
 	(junction
-		(at 66.04 81.28)
+		(at 205.74 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b79b2ac-0b10-4f7e-8454-350c2c422ae3")
+		(uuid "918c242b-4fa5-40d0-ab00-ae52afa4912b")
 	)
 	(junction
-		(at 45.72 73.66)
+		(at 102.87 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e22214b-5d7c-435c-8c3b-eb15969efcb0")
+		(uuid "9bdb9d35-9ab1-4eda-a3a5-037e7d8d2ca8")
 	)
 	(junction
-		(at 124.46 73.66)
+		(at 139.7 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90c321e8-27db-4f6a-82bd-969b0ff7d2d9")
+		(uuid "a8bc61f2-2e11-4e88-8f7a-b4f57cf85e33")
 	)
 	(junction
-		(at 162.56 48.26)
+		(at 173.99 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "94cf21dc-3a9d-4bd2-8d27-bfc4706625c0")
+		(uuid "aab18a07-48b9-46f7-90fc-3847d1bf4511")
 	)
 	(junction
-		(at 220.98 104.14)
+		(at 240.03 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f328356-8d33-4b05-85e0-3a1f54a18199")
+		(uuid "abeba1d1-ca19-43f2-a1dc-79508dd470b5")
 	)
 	(junction
-		(at 220.98 55.88)
+		(at 173.99 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bef49066-68e2-4d63-b115-22139b580384")
+		(uuid "ada57a44-5c93-444b-b4b6-e2f9f361fabb")
 	)
 	(junction
-		(at 124.46 30.48)
+		(at 240.03 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1066aca-d1b4-476f-836f-7d0fb908eb83")
+		(uuid "bb386301-169b-4513-a3af-7a08caf3340d")
 	)
 	(junction
-		(at 144.78 55.88)
+		(at 173.99 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c58869a6-fa00-4b44-a300-c1dfb7d3a0b4")
+		(uuid "c2c59496-cbaa-4280-89fa-5098d0600227")
 	)
 	(junction
-		(at 162.56 73.66)
+		(at 205.74 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ccbac6de-fdb7-41ea-b7e2-67247d2af8ec")
+		(uuid "d57db630-9d58-4dcd-874a-6f9724cc24e4")
 	)
 	(junction
-		(at 238.76 73.66)
+		(at 171.45 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ccd64770-69d4-4d3b-aa54-9f27f4542c96")
+		(uuid "d8845deb-b827-4015-8d55-2746e9e85ddd")
 	)
 	(junction
-		(at 66.04 55.88)
+		(at 68.58 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db4ed41c-c153-4d8a-80cf-baad7013a137")
-	)
-	(junction
-		(at 220.98 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc2ea5c0-953f-4849-bfbb-4a8adf43e0db")
-	)
-	(junction
-		(at 182.88 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e25c5ba6-a4eb-4ed4-a9e7-a4878c0a1157")
-	)
-	(junction
-		(at 106.68 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f18a2193-2c34-4cbf-bf31-4a3bf9dfb638")
+		(uuid "ef90d4ee-a6db-40b4-b7d2-9ded35e1205f")
 	)
 	(wire
 		(pts
-			(xy 124.46 26.67) (xy 124.46 30.48)
+			(xy 238.76 87.63) (xy 243.84 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06e667ad-7a0b-43a0-bb6d-d0a0502987d8")
+		(uuid "030b6a49-324c-474a-be13-9bf52c93aae1")
 	)
 	(wire
 		(pts
-			(xy 66.04 55.88) (xy 106.68 55.88)
+			(xy 71.12 104.14) (xy 36.83 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07d14992-88cb-49b5-8c10-f6e4fd9afd5e")
+		(uuid "0450b537-51ef-458e-acb4-012d2fbf8dca")
 	)
 	(wire
 		(pts
-			(xy 220.98 104.14) (xy 182.88 104.14)
+			(xy 139.7 104.14) (xy 105.41 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07fff153-ccea-47df-b2c4-76401cb54b82")
+		(uuid "04a7025e-b3d7-498c-a80b-744f900670d9")
 	)
 	(wire
 		(pts
-			(xy 66.04 55.88) (xy 66.04 48.26)
+			(xy 36.83 78.74) (xy 30.48 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0966b545-5bb6-46b5-b7e5-8cc365fcc3bc")
+		(uuid "050b0f40-1340-4653-aca7-7222d5e6ef78")
 	)
 	(wire
 		(pts
-			(xy 45.72 73.66) (xy 45.72 99.06)
+			(xy 204.47 62.23) (xy 209.55 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a02603d-6722-4dc3-8295-cd17530c3890")
+		(uuid "05d3e5c4-260a-41cc-a1af-764307fbb26a")
 	)
 	(wire
 		(pts
-			(xy 220.98 73.66) (xy 220.98 81.28)
+			(xy 101.6 36.83) (xy 106.68 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b90ca6a-a39f-4cea-8b99-1132cf3ebf0c")
+		(uuid "0666d534-bb02-450e-a4fe-4ffd670a73bf")
 	)
 	(wire
 		(pts
-			(xy 66.04 104.14) (xy 31.75 104.14)
+			(xy 238.76 41.91) (xy 240.03 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13fab6f9-2129-4f31-b056-cd6e9be03c06")
+		(uuid "07fd5ca5-3349-4954-af4c-18af648a6917")
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 238.76 31.75)
+			(xy 250.19 36.83) (xy 252.73 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1af30520-5311-4e8c-a2b6-dab8567eefb8")
+		(uuid "080e002d-3c53-479e-87eb-f5ffc9e877d7")
 	)
 	(wire
 		(pts
-			(xy 66.04 99.06) (xy 66.04 104.14)
+			(xy 67.31 67.31) (xy 68.58 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f6aa0a5-42e6-4700-ba2b-4cad4f5e5145")
+		(uuid "09cd989e-5ab6-4bc4-ab54-695759c3b575")
 	)
 	(wire
 		(pts
-			(xy 220.98 48.26) (xy 220.98 55.88)
+			(xy 67.31 62.23) (xy 72.39 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20fb143f-19c7-4061-b4be-6b6809946601")
+		(uuid "0a7fbdf9-1bba-4954-975a-984c5aeec325")
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 144.78 81.28)
+			(xy 36.83 92.71) (xy 36.83 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23d8ee9e-a431-43f8-89b1-5e4ab420ae24")
+		(uuid "0d99fe00-c89e-456e-b43a-0c110493d794")
 	)
 	(wire
 		(pts
-			(xy 86.36 48.26) (xy 86.36 73.66)
+			(xy 71.12 41.91) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25dfa1d9-f4b1-4107-8791-ae82a2708f30")
+		(uuid "0f079442-9a64-4ab4-a698-452853e18c5a")
 	)
 	(wire
 		(pts
-			(xy 182.88 104.14) (xy 144.78 104.14)
+			(xy 102.87 41.91) (xy 102.87 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28e97bba-4c68-4a21-b1f8-b2a3873a65d1")
+		(uuid "0fd1cc61-45e3-42f8-be85-e47d3ac437d5")
 	)
 	(wire
 		(pts
-			(xy 86.36 30.48) (xy 86.36 48.26)
+			(xy 105.41 67.31) (xy 105.41 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3158e732-9fff-4ea3-ac54-5b92f5ae2977")
+		(uuid "16589270-6fb4-4417-9db5-41cfa236930c")
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 144.78 55.88)
+			(xy 36.83 53.34) (xy 30.48 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3907b8de-a48b-4821-a86b-0cc0803e5954")
+		(uuid "18eaf139-937f-4db2-9e2c-7ea19ff962a5")
 	)
 	(wire
 		(pts
-			(xy 162.56 48.26) (xy 162.56 30.48)
+			(xy 173.99 67.31) (xy 173.99 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46ad4c34-6ec3-40ef-bf78-795646847d86")
+		(uuid "1cd5a2bb-b106-40ad-ae77-a955b1d9f763")
 	)
 	(wire
 		(pts
-			(xy 144.78 48.26) (xy 144.78 55.88)
+			(xy 205.74 67.31) (xy 205.74 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46c60c8c-07a2-4619-9e3e-da6cc4b3e1d9")
+		(uuid "1ed19a18-2311-48e4-bf5e-0e8059edc0e3")
 	)
 	(wire
 		(pts
-			(xy 200.66 48.26) (xy 200.66 73.66)
+			(xy 137.16 67.31) (xy 137.16 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47c20c2a-9bb5-4133-be6b-5b7d5b7191c7")
+		(uuid "25c4a961-c3b6-4266-9a9d-8ce99d5d432a")
 	)
 	(wire
 		(pts
-			(xy 259.08 99.06) (xy 259.08 104.14)
+			(xy 170.18 62.23) (xy 175.26 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d7f7264-5dd4-4193-8e5e-b99ff47dbf8d")
+		(uuid "26de78e8-b710-44f5-9c17-486ab00ba8d4")
 	)
 	(wire
 		(pts
-			(xy 66.04 73.66) (xy 66.04 81.28)
+			(xy 67.31 36.83) (xy 72.39 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5100bd28-0dd8-4acc-9825-2433f04084ec")
+		(uuid "2b0ae9d4-30bc-47d6-be45-5df23f6d2622")
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 220.98 81.28)
+			(xy 106.68 92.71) (xy 105.41 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "576e08aa-8912-45cd-a75d-17806a4e3fca")
+		(uuid "2ea6406f-9207-4a42-9df9-665bfa94f763")
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 182.88 55.88)
+			(xy 72.39 41.91) (xy 71.12 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c46ed23-3c2c-4ab5-bd6b-a676514cf196")
+		(uuid "33181529-4b6c-4823-88e3-b78d88e89dbe")
 	)
 	(wire
 		(pts
-			(xy 220.98 55.88) (xy 259.08 55.88)
+			(xy 204.47 67.31) (xy 205.74 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d30fc11-a7b8-4f23-bbf2-c5d4935a88a4")
+		(uuid "33304f0a-3059-4a28-be96-8d9ac6118b23")
 	)
 	(wire
 		(pts
-			(xy 182.88 55.88) (xy 220.98 55.88)
+			(xy 72.39 92.71) (xy 71.12 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ea45c7c-9b55-4216-9c2b-d46210af3e42")
+		(uuid "3658c3e1-f1e1-4fe6-8d08-0bc7cb26d8f3")
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 144.78 81.28)
+			(xy 139.7 41.91) (xy 139.7 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66268c64-20ca-494a-ac02-7e55ee4a0fde")
+		(uuid "3a424505-31b4-4a34-9f69-9f85e57e1ed0")
 	)
 	(wire
 		(pts
-			(xy 259.08 73.66) (xy 259.08 81.28)
+			(xy 170.18 92.71) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "688f010c-326e-4c31-81fd-cd2cc7564709")
+		(uuid "3bf3eafd-f49b-451f-a419-56822c81cea4")
 	)
 	(wire
 		(pts
-			(xy 124.46 30.48) (xy 124.46 48.26)
+			(xy 139.7 78.74) (xy 105.41 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70f7c14b-56f0-4e00-a385-a3e27a5a4a5d")
+		(uuid "3e11eae6-ccb9-454c-8a49-06ab7ae8ff16")
 	)
 	(wire
 		(pts
-			(xy 162.56 99.06) (xy 162.56 73.66)
+			(xy 71.12 78.74) (xy 36.83 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74d5555d-13d4-438a-aaa3-fa5a1c2371a4")
+		(uuid "42a96ea2-6a2e-4b6f-a479-4513a189be34")
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 182.88 104.14)
+			(xy 135.89 36.83) (xy 140.97 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fafc0b0-cd0e-467b-9a10-c1e129474385")
+		(uuid "44fd8e97-b308-47df-b149-1e8477390594")
 	)
 	(wire
 		(pts
-			(xy 259.08 104.14) (xy 220.98 104.14)
+			(xy 34.29 62.23) (xy 38.1 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80151d95-8974-49ba-a2f2-ebab30da3fbe")
+		(uuid "46d92054-cb29-49d8-9b25-921b7ee64c9f")
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 162.56 48.26)
+			(xy 173.99 92.71) (xy 173.99 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8048051c-3a76-49bd-87ae-a4d9a7e015f9")
+		(uuid "48136598-9ab5-4990-aea6-8052561d57f8")
 	)
 	(wire
 		(pts
-			(xy 220.98 81.28) (xy 259.08 81.28)
+			(xy 36.83 104.14) (xy 30.48 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8116dc7f-4c39-487f-866d-79a07c52cf9e")
+		(uuid "496ea865-c645-4235-9af2-81385c6de230")
 	)
 	(wire
 		(pts
-			(xy 200.66 73.66) (xy 200.66 99.06)
+			(xy 105.41 78.74) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "877717cd-e14d-4eb0-995c-5dfc0f0bd083")
+		(uuid "4d91ff5f-4f3b-43e0-af42-f2c217345c4e")
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 45.72 30.48)
+			(xy 204.47 36.83) (xy 209.55 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88d99579-9f9e-400d-b10f-cf4d7a169c94")
+		(uuid "4e459025-b1e9-47f3-a39d-cb3d2661b431")
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 106.68 81.28)
+			(xy 101.6 62.23) (xy 106.68 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c829a87-773e-4973-a946-2bfed6cf40e6")
+		(uuid "4fd915c5-e618-4f99-ad24-74ef883d3f82")
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 182.88 81.28)
+			(xy 102.87 67.31) (xy 102.87 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d9957e8-3ffb-4587-8b78-a7a5e32fef73")
+		(uuid "5087d12f-bb0d-4f6a-99f9-49eb3aa69719")
 	)
 	(wire
 		(pts
-			(xy 182.88 48.26) (xy 182.88 55.88)
+			(xy 102.87 41.91) (xy 102.87 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eff65ad-2f44-4815-b13b-dcca4cfd7fba")
+		(uuid "50967cdd-e095-4df8-9b20-1f62bf12072e")
 	)
 	(wire
 		(pts
-			(xy 45.72 30.48) (xy 45.72 48.26)
+			(xy 243.84 62.23) (xy 243.84 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "968503a1-e48b-4045-9fcb-943ed134ac25")
+		(uuid "50a5b898-0685-4677-b1ad-5a1719aa621d")
 	)
 	(wire
 		(pts
-			(xy 162.56 30.48) (xy 124.46 30.48)
+			(xy 175.26 67.31) (xy 173.99 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a7e40e1-e52c-4876-aee2-2e1161726710")
+		(uuid "5b8580fa-f38c-4b7b-aadd-2331f0f3b48c")
 	)
 	(wire
 		(pts
-			(xy 238.76 48.26) (xy 238.76 73.66)
+			(xy 106.68 67.31) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ba5d5c6-dce0-4776-8544-0b1355744b77")
+		(uuid "5c5c1d44-f6d0-4a77-bcf2-0b4fefe9527a")
 	)
 	(wire
 		(pts
-			(xy 238.76 31.75) (xy 238.76 48.26)
+			(xy 67.31 87.63) (xy 72.39 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a14e003f-aeac-4347-b0f5-e5e257e80125")
+		(uuid "5e0e05c3-9b61-4f38-9190-f9056e2537d2")
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 200.66 48.26)
+			(xy 135.89 67.31) (xy 137.16 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4734ff6-fb28-4d51-918a-1171816210f3")
+		(uuid "5f0726a3-75d6-48e9-a763-213440cf6505")
 	)
 	(wire
 		(pts
-			(xy 106.68 104.14) (xy 66.04 104.14)
+			(xy 175.26 41.91) (xy 173.99 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9b6b9fb-731e-42c5-bc22-699c70bb3197")
+		(uuid "669755f6-ac00-4339-89a5-8546114a48ba")
 	)
 	(wire
 		(pts
-			(xy 45.72 30.48) (xy 86.36 30.48)
+			(xy 34.29 62.23) (xy 34.29 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8b6d1bc-1a71-4700-b420-7021a9e422ef")
+		(uuid "67b98679-161c-4b6c-891b-2c186050eec9")
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 106.68 81.28)
+			(xy 240.03 41.91) (xy 240.03 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b930943a-6837-4535-99b2-eec6ffde57c4")
+		(uuid "6952f458-d21e-46c9-be05-daad8e506e8f")
 	)
 	(wire
 		(pts
-			(xy 106.68 99.06) (xy 106.68 104.14)
+			(xy 101.6 92.71) (xy 102.87 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd7e895b-9f35-4812-a093-d32466ee87ef")
+		(uuid "6af3bf8e-cd32-446d-a331-da87d4bb6e19")
 	)
 	(wire
 		(pts
-			(xy 200.66 26.67) (xy 200.66 31.75)
+			(xy 238.76 92.71) (xy 240.03 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdbe9220-dd0c-48ad-9c67-4fbe94b83fdf")
+		(uuid "6b840f02-95c3-4076-8f4b-f6afccaf5a40")
 	)
 	(wire
 		(pts
-			(xy 45.72 48.26) (xy 45.72 73.66)
+			(xy 135.89 92.71) (xy 137.16 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1a6137a-e6e0-4d3a-b5b9-2fabc638d16e")
+		(uuid "6cdb3fac-eec5-4b54-b150-1f0cdd042509")
 	)
 	(wire
 		(pts
-			(xy 238.76 73.66) (xy 238.76 99.06)
+			(xy 34.29 36.83) (xy 38.1 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c456e166-486d-4017-8baa-2d2bae6e9898")
+		(uuid "6d96b68d-b0e3-4c81-939d-d427f4777ba5")
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 31.75 81.28)
+			(xy 170.18 87.63) (xy 175.26 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c957919f-f912-49db-ad29-d309373cb51e")
+		(uuid "6eeb6b47-d6a3-4334-8386-e651b6b1abae")
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 182.88 81.28)
+			(xy 139.7 92.71) (xy 139.7 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cac78bf0-2eef-41f1-8ab4-bb0803778978")
+		(uuid "71495c5e-d144-427b-a8a0-5effaf80bbf3")
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 106.68 55.88)
+			(xy 208.28 41.91) (xy 208.28 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc5fe9e4-295a-4cda-99bf-13f9ab44d8c2")
+		(uuid "7249faff-76eb-4f73-9c79-ea8de5874600")
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 106.68 104.14)
+			(xy 208.28 92.71) (xy 208.28 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce7cd1ec-e565-4cce-ad56-90c269f2d112")
+		(uuid "72e059ed-2495-4a1b-8e0f-9bdb35885ff7")
 	)
 	(wire
 		(pts
-			(xy 124.46 48.26) (xy 124.46 73.66)
+			(xy 208.28 67.31) (xy 208.28 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf5c927a-1fed-4c3d-af2c-36549dce3ee0")
+		(uuid "7934e857-a810-4459-ad35-63a2a816e472")
 	)
 	(wire
 		(pts
-			(xy 31.75 55.88) (xy 66.04 55.88)
+			(xy 137.16 41.91) (xy 137.16 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db36cec3-9e88-465a-991e-cf3bc2d21e1c")
+		(uuid "7945f9b0-0ba3-447b-bbb9-e40ca2677f5d")
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 220.98 104.14)
+			(xy 101.6 87.63) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e11aed30-a90b-4f9f-ba00-678b619a7ad7")
+		(uuid "79a7bbee-0553-486f-a3e6-9870a697c521")
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 86.36 99.06)
+			(xy 175.26 92.71) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e532f22f-55e0-4fa8-b010-3165ea058bb8")
+		(uuid "7c6423b8-4333-4716-b85a-2dc91e5175af")
 	)
 	(wire
 		(pts
-			(xy 124.46 73.66) (xy 124.46 99.06)
+			(xy 106.68 41.91) (xy 105.41 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7227330-2c69-4b2a-9be1-3e7744963991")
+		(uuid "7ea8bdb9-8fee-4877-86a5-b31049ef055c")
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 144.78 104.14)
+			(xy 68.58 24.13) (xy 67.31 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f790becb-8b31-457c-9f6b-ba49312c0e59")
+		(uuid "7f6243c2-2e13-4b5a-8ea5-eb2f1df38528")
 	)
 	(wire
 		(pts
-			(xy 259.08 48.26) (xy 259.08 55.88)
+			(xy 171.45 67.31) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd931359-2131-47c3-b22d-d0277ee36075")
+		(uuid "84f2c848-61e4-48c5-8835-43f21cfd0d7a")
 	)
-	(label "ROW_3"
-		(at 35.56 104.14 0)
+	(wire
+		(pts
+			(xy 170.18 41.91) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8516c291-bf56-4727-8da6-78882fce4252")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d89657-77a4-4d0c-9c44-27475bfd4628")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 139.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7de94d-498a-4990-82fc-ae7fd0f7a44a")
+	)
+	(wire
+		(pts
+			(xy 137.16 41.91) (xy 137.16 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a90f63e-f179-4e52-aa4d-c03dac062e9b")
+	)
+	(wire
+		(pts
+			(xy 205.74 41.91) (xy 205.74 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec4b2ac-3331-4795-a8d9-7106c3334a58")
+	)
+	(wire
+		(pts
+			(xy 67.31 92.71) (xy 68.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903f785b-4ee2-4ec3-a9b9-f06401ea61a5")
+	)
+	(wire
+		(pts
+			(xy 170.18 36.83) (xy 175.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90af660d-078d-41fd-a192-0cbd0bd0bc30")
+	)
+	(wire
+		(pts
+			(xy 67.31 41.91) (xy 68.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ffa164-2b3d-46aa-a198-b7447febb314")
+	)
+	(wire
+		(pts
+			(xy 135.89 41.91) (xy 137.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9618348f-564f-4960-afa2-d4e5962ed033")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fa4ef1-fc93-439a-99b8-77242a1fbb25")
+	)
+	(wire
+		(pts
+			(xy 71.12 67.31) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e023cd-54e0-46e7-ae34-c9b2fdcf7bcf")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 36.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984b73f7-f122-4bfd-8e6d-c028c8c42c2d")
+	)
+	(wire
+		(pts
+			(xy 208.28 78.74) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f7b1aa-af2d-47b7-ab36-37447bf5e415")
+	)
+	(wire
+		(pts
+			(xy 209.55 41.91) (xy 208.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a521a486-3189-4c1e-a3ca-48c5375a7367")
+	)
+	(wire
+		(pts
+			(xy 71.12 92.71) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52bb82b-8618-4c93-8179-48238875cd89")
+	)
+	(wire
+		(pts
+			(xy 238.76 62.23) (xy 243.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75b8dc9-dc54-46dc-95c1-89ded42f2570")
+	)
+	(wire
+		(pts
+			(xy 72.39 67.31) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3672a0-5f89-4f73-91f4-e6d1cde2c9d0")
+	)
+	(wire
+		(pts
+			(xy 204.47 41.91) (xy 205.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc693ea-7815-4a1b-bece-94f9e3e2f979")
+	)
+	(wire
+		(pts
+			(xy 209.55 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b322fb53-d7a5-49e4-a39b-aefaf9ba7ced")
+	)
+	(wire
+		(pts
+			(xy 204.47 87.63) (xy 209.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ce1080-d25c-4a30-8ac8-7215adad0063")
+	)
+	(wire
+		(pts
+			(xy 34.29 87.63) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c49a0c-18ef-4fd9-851f-c7f65c698839")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 105.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4ac93e-05b8-43d3-ade1-332f1f257e31")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 102.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc08c119-b4f2-40c2-83b2-d7b4be05a76d")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3bf01d-ef24-4976-8be3-68a3b7252ba0")
+	)
+	(wire
+		(pts
+			(xy 38.1 41.91) (xy 36.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01f3261-858e-48c7-98cb-7327577a3f58")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c187f244-792c-4798-beaf-873e88203294")
+	)
+	(wire
+		(pts
+			(xy 135.89 62.23) (xy 140.97 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3255aa6-f060-481a-8f65-82db920af39a")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 208.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a5c7db-cc88-4f29-9e2f-69d1d5dc12a1")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78c7bd3-ce1d-4e1a-99df-fe095f92661b")
+	)
+	(wire
+		(pts
+			(xy 105.41 41.91) (xy 105.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8677e14-3add-4e09-8435-ebaf9488e96f")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 68.58 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca160f40-b420-4034-b811-8965e5ea806a")
+	)
+	(wire
+		(pts
+			(xy 238.76 67.31) (xy 240.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd6ef89-8709-4988-a6c6-6add76fddda7")
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 71.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02e32df-99a3-4b21-861b-5e93b5aa433c")
+	)
+	(wire
+		(pts
+			(xy 36.83 67.31) (xy 36.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e092be-4f36-4f15-b6bd-7dfbb7128d41")
+	)
+	(wire
+		(pts
+			(xy 38.1 67.31) (xy 36.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d486a251-542d-45e7-aaaf-b1d8777e2879")
+	)
+	(wire
+		(pts
+			(xy 135.89 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc2f737-dc4a-4f9d-a00b-2d6103e49184")
+	)
+	(wire
+		(pts
+			(xy 102.87 24.13) (xy 101.6 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8214de-f48e-4cc1-9449-d65de9f16d13")
+	)
+	(wire
+		(pts
+			(xy 205.74 41.91) (xy 205.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de760aa5-e869-4a95-a9c7-5218c37ac90b")
+	)
+	(wire
+		(pts
+			(xy 71.12 53.34) (xy 36.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3849539-18c3-4913-8063-05a387e7bbf1")
+	)
+	(wire
+		(pts
+			(xy 173.99 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e8886d-8007-4849-aefe-83befb5ab199")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 68.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79ca9ed-39ee-4c9c-9879-3ea8e26710a6")
+	)
+	(wire
+		(pts
+			(xy 170.18 67.31) (xy 171.45 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c09992-e1fe-4aee-9832-30c386eee19c")
+	)
+	(wire
+		(pts
+			(xy 173.99 41.91) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1648c4-ccdb-4c9a-9abb-1330e9ddab67")
+	)
+	(wire
+		(pts
+			(xy 173.99 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed48013e-fc6b-4768-9844-d461d0a4bd54")
+	)
+	(wire
+		(pts
+			(xy 240.03 41.91) (xy 240.03 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edeff4db-dc5b-4008-8a46-cedb2ced69e3")
+	)
+	(wire
+		(pts
+			(xy 101.6 41.91) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec5ce65-1204-447d-9f45-82a49cd80f98")
+	)
+	(wire
+		(pts
+			(xy 36.83 41.91) (xy 36.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeeb38aa-a9ba-4658-84d2-93bc8ccb43e7")
+	)
+	(wire
+		(pts
+			(xy 238.76 36.83) (xy 242.57 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c80b2c-0c34-42eb-a641-57288a0f9ddb")
+	)
+	(wire
+		(pts
+			(xy 171.45 41.91) (xy 171.45 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f327da9b-5b04-4ab2-8739-ed558c346296")
+	)
+	(wire
+		(pts
+			(xy 240.03 67.31) (xy 240.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f346476f-6224-400c-8b37-1f47fb0123ad")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f51d6e-7455-4fa8-88fb-13cd0fd537a4")
+	)
+	(wire
+		(pts
+			(xy 204.47 92.71) (xy 205.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b4982b-19c7-4938-8aae-f7fb863d597b")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f962249f-d928-4d65-8875-69675d363cdd")
+	)
+	(wire
+		(pts
+			(xy 68.58 67.31) (xy 68.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9dcf356-3fa9-444e-ae5d-7c2577fbb9ad")
+	)
+	(wire
+		(pts
+			(xy 171.45 41.91) (xy 171.45 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc92c70-1113-4e1c-b633-16b758b4d4dd")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda2d5d5-b1a7-47b1-8d57-ed7ef0bbf333")
+	)
+	(hierarchical_label "PerKey_LED_In"
+		(shape input)
+		(at 252.73 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "1276e35a-e155-4ccd-a2bf-2ecd21e8672f")
-	)
-	(label "COL_1"
-		(at 201.93 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "149be96b-cf30-47ea-b39b-932cbb9e6e9d")
-	)
-	(label "COL_2"
-		(at 125.73 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "169f5e1c-3787-4fdb-9c96-01a0dd35d7b8")
-	)
-	(label "COL_3"
-		(at 46.99 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "508fe62f-2819-4daf-be9b-1d15081014d5")
-	)
-	(label "ROW_2"
-		(at 35.56 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f046e931-483d-4eee-8252-3a08d7e74e1d")
-	)
-	(label "ROW_1"
-		(at 35.56 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa405202-9f70-4ae7-b2ff-9272c7adadad")
+		(uuid "0bdda763-0059-4f6b-9efb-65058812b573")
 	)
 	(hierarchical_label "ROW_2"
 		(shape input)
-		(at 31.75 81.28 180)
+		(at 30.48 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1132,45 +1473,81 @@
 		)
 		(uuid "0ef1b651-9d11-4826-8def-734afdd37687")
 	)
-	(hierarchical_label "COL_2"
+	(hierarchical_label "COL_3"
 		(shape input)
-		(at 124.46 26.67 0)
+		(at 171.45 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2afa445b-e8a2-46fc-a6aa-713ed098e32c")
 	)
-	(hierarchical_label "COL_3"
+	(hierarchical_label "COL_5"
 		(shape input)
-		(at 45.72 25.4 0)
+		(at 101.6 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "596b59ae-45bb-492b-b551-8f10b1ec7e52")
 	)
-	(hierarchical_label "COL_1"
+	(hierarchical_label "COL_4"
 		(shape input)
-		(at 200.66 26.67 0)
+		(at 137.16 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
+		)
+		(uuid "97e19d30-5ce3-4b85-8a6e-65d630a1d22f")
+	)
+	(hierarchical_label "COL_1"
+		(shape input)
+		(at 240.03 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "b26bb80c-e4ec-47db-82a0-2778a5bec0fe")
 	)
+	(hierarchical_label "COL_2"
+		(shape input)
+		(at 205.74 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2157c3e-2b1b-42b5-834e-ae4701218155")
+	)
+	(hierarchical_label "COL_6"
+		(shape input)
+		(at 67.31 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db46dc1f-84fa-48e0-85f4-d0b6db293b9b")
+	)
 	(hierarchical_label "ROW_3"
 		(shape input)
-		(at 31.75 104.14 180)
+		(at 30.48 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1182,7 +1559,7 @@
 	)
 	(hierarchical_label "ROW_1"
 		(shape input)
-		(at 31.75 55.88 180)
+		(at 30.48 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1193,33 +1570,33 @@
 		(uuid "e558a189-ba1e-4da2-8c29-fd3e4a4f7cce")
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 50.8 48.26 0)
+		(lib_id "Device:R")
+		(at 246.38 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0dfbb0af-019b-4046-9599-d0b60305c6e5")
-		(property "Reference" "K1"
-			(at 50.8 40.005 0)
+		(uuid "9977f95b-dd34-47d0-9c2d-c604dd8b8b1a")
+		(property "Reference" "R11"
+			(at 246.38 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 50.8 42.545 0)
+		(property "Value" "470"
+			(at 246.38 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 50.8 43.18 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 246.38 35.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1605,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 43.18 0)
+			(at 246.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,126 +1613,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 48.26 0)
+		(property "Description" "Resistor"
+			(at 246.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "1c3a3a32-8f4f-4c2c-8ba7-fee31c41cd58")
 		)
 		(pin "2"
-			(uuid "6ceb8ac9-9e8c-490c-be7d-4dddf783d355")
+			(uuid "07ee96f2-df7c-4fbc-9885-3baf285a6666")
+		)
+		(pin "1"
+			(uuid "4fa90f8d-09a7-4d80-ba87-d00e3fd14188")
 		)
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 48.26 0)
+		(lib_id "Device:R")
+		(at 30.48 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ffc3a79-25c6-4a27-8f04-3d2e0660f5d8")
-		(property "Reference" "K4"
-			(at 91.44 40.005 0)
+		(uuid "9b9354be-30c2-48ec-8344-91b9f0b15813")
+		(property "Reference" "R12"
+			(at 30.48 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 91.44 42.545 0)
+		(property "Value" "470"
+			(at 30.48 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0e0a116-1175-4b25-9b25-e5eabf6996c3")
-		)
-		(pin "2"
-			(uuid "9c389cfa-ec5f-4476-9f8f-fe7833ca8aff")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 129.54 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a77becf-d95a-43fc-9c9e-b2e35750a606")
-		(property "Reference" "K7"
-			(at 129.54 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 129.54 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 129.54 43.18 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 30.48 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 43.18 0)
+			(at 30.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,2285 +1681,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 129.54 48.26 0)
+		(property "Description" "Resistor"
+			(at 30.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "9863268b-a89a-43d0-bd6e-9dd688333405")
 		)
 		(pin "2"
-			(uuid "882b6584-abbd-4a40-a5bd-ade13ada7b0c")
+			(uuid "4f06a99f-a976-4d1f-96f2-c13227c9c5c0")
+		)
+		(pin "1"
+			(uuid "f1062402-5ec4-4ecb-a19c-129cfc45033e")
 		)
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 254 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aa80908-440a-45bf-9914-a0936fe44e62")
-		(property "Reference" "D16"
-			(at 254 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 254 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 254 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31f9e059-61e6-47a9-96cd-f32304dd4714")
-		)
-		(pin "2"
-			(uuid "e1bd1fe7-8c0d-465c-b0a1-0d7b49cc7770")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 101.6 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fb30038-6e41-4e52-a1bc-923cdbc387c8")
-		(property "Reference" "D5"
-			(at 101.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 101.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56556958-c780-49cf-ae27-a647e39f1459")
-		)
-		(pin "2"
-			(uuid "a1b91475-997e-46ca-b7c5-62057dc5147f")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 215.9 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "286f27a9-e1ee-4955-87e9-d108076f7daa")
-		(property "Reference" "D13"
-			(at 215.9 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 215.9 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 215.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05e17663-71fb-4cdc-bc03-67109eb7c21d")
-		)
-		(pin "2"
-			(uuid "db43debd-0383-4d1b-bdc0-f14be08da450")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 101.6 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3be9e8ab-c14d-4532-94de-dcd6813fa747")
-		(property "Reference" "D6"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 101.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d08213c-8317-467f-ae90-762434c5b8b5")
-		)
-		(pin "2"
-			(uuid "8fc82a4f-e53e-4cac-b4c2-c5660bdd9655")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 167.64 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eb03d7d-aaa8-4005-a246-2624007795dc")
-		(property "Reference" "K12"
-			(at 167.64 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 167.64 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d847a28-930f-4a4a-a45f-68d469f219cd")
-		)
-		(pin "2"
-			(uuid "da3b18cb-3978-4e05-82ee-3bf9935063c2")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a95f457-c1bf-4e76-9721-53b32488e0e1")
-		(property "Reference" "K5"
-			(at 91.44 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 91.44 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 91.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7432b87e-01ce-4583-bcd4-aa9715e43bf3")
-		)
-		(pin "2"
-			(uuid "03cbaca3-5f07-46ce-b1ef-edf5fbb4519e")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 254 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "605f4989-e8d4-4e5c-9910-c00279a3eba0")
-		(property "Reference" "D18"
-			(at 254 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 254 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cde867a4-900f-4c1e-92cb-ea772eddf9e9")
-		)
-		(pin "2"
-			(uuid "578919ba-3721-403c-8c80-0de62840368e")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 139.7 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "606bc8be-a6e8-47d0-b66a-106d388a5187")
-		(property "Reference" "D8"
-			(at 139.7 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 139.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 139.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e383359b-b7d7-4155-9998-3c6aab367b11")
-		)
-		(pin "2"
-			(uuid "be41d58d-a72c-4730-bbd3-2c372da2ff61")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 215.9 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61327662-0efd-4ba0-8914-a5a717536603")
-		(property "Reference" "D15"
-			(at 215.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 215.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20cfa45f-1b4d-4c25-b125-7a28b4f21382")
-		)
-		(pin "2"
-			(uuid "bacd9648-1fe8-4b5a-80f8-28b212d8390b")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 205.74 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "689c16c2-0a75-4a6b-88f7-0e64cf46845f")
-		(property "Reference" "K14"
-			(at 205.74 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 205.74 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 205.74 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dc5f18d-10a9-4f43-ab55-e97bc1bf654d")
-		)
-		(pin "2"
-			(uuid "a61f5258-e1e8-45a4-8d3e-6a5da3703e02")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 205.74 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "698369e1-cc61-4900-92ba-8faee4d64454")
-		(property "Reference" "K15"
-			(at 205.74 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 205.74 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0b291ce-fd05-4f8f-8fda-cb997d922684")
-		)
-		(pin "2"
-			(uuid "3b1f25ce-5b71-4a82-aeda-10a38fa44fe5")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 139.7 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c4c90f6-8a23-4c75-9cb9-f754b7dcd2a6")
-		(property "Reference" "D7"
-			(at 139.7 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 139.7 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1730cdfe-8fde-498e-8817-38ab40e38bd0")
-		)
-		(pin "2"
-			(uuid "e4e606e6-844a-4c12-bafd-e26bcd6e7d5b")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 254 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ef9f797-15a9-4c3b-962b-14ab97c2d7c6")
-		(property "Reference" "D17"
-			(at 254 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 254 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 254 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495d5889-41ed-4126-9e61-8049b35f19ee")
-		)
-		(pin "2"
-			(uuid "65bc56c4-c978-43d0-a268-b6057434c469")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 101.6 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f101042-b050-4717-b46c-41a71d8ed9a4")
-		(property "Reference" "D4"
-			(at 101.6 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dda4ce3-e9b8-425c-b2fd-9d6cfaf38177")
-		)
-		(pin "2"
-			(uuid "04de0047-6db4-4602-af12-8c509df24972")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 167.64 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75f11ac0-524a-4db2-9feb-da47f6bced3a")
-		(property "Reference" "K10"
-			(at 167.64 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 167.64 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 167.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa6a389d-e336-4e56-8fec-be339c4ffcb4")
-		)
-		(pin "2"
-			(uuid "097dc3b1-9e3f-4e8d-a8a8-22d3ee5d1422")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 215.9 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e7ecf26-36c8-421f-96e5-1a3f7960bbd8")
-		(property "Reference" "D14"
-			(at 215.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 215.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 215.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dce5782-4a5d-4678-bf26-a67385d4fcbd")
-		)
-		(pin "2"
-			(uuid "45b47dbe-8955-47c4-bf64-e9b6480b2866")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 139.7 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f248dbb-9d2f-47cb-b6f2-d3790ef81dfe")
-		(property "Reference" "D9"
-			(at 139.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 139.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 139.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2676fd7c-3168-4288-a8f8-44347d74ddb2")
-		)
-		(pin "2"
-			(uuid "5764027a-7cf3-4dcc-b65b-390b631e408a")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 177.8 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "893b5886-058d-404c-ab58-020dd5296c65")
-		(property "Reference" "D11"
-			(at 177.8 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "957675cb-c828-4455-8103-0ef9fb2cf13e")
-		)
-		(pin "2"
-			(uuid "7986374d-21c2-406a-9e27-76e3a95c6d55")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 205.74 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "920118ba-8371-4f32-9d35-a0a9526d11f3")
-		(property "Reference" "K13"
-			(at 205.74 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 205.74 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 205.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef42f37e-a353-4d0c-af85-4efe455c8041")
-		)
-		(pin "2"
-			(uuid "ba2d865d-86f9-419d-8aee-a5e821e8a9c4")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 60.96 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "941ae2d0-31a8-47bc-a08b-0c74d8e6a62d")
-		(property "Reference" "D1"
-			(at 60.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 60.96 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a00ab2e5-3514-4721-933f-350f8cd78ac5")
-		)
-		(pin "2"
-			(uuid "92e80515-44ae-4cdd-a5ef-e970d4b274d3")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 50.8 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d833988-cf71-4708-bfca-a9d6589eaa88")
-		(property "Reference" "K3"
-			(at 50.8 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 50.8 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 50.8 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39513b72-17f5-4f03-9560-c5e6a592034e")
-		)
-		(pin "2"
-			(uuid "440c5590-c435-41f1-b8d1-3345d057fb68")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 167.64 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a48fc446-dc14-40ce-8126-e6049c1f3f21")
-		(property "Reference" "K11"
-			(at 167.64 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 167.64 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 167.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4225a4f7-accf-4a68-843e-74ae71e47640")
-		)
-		(pin "2"
-			(uuid "602433d6-17a3-4a84-a664-842d5d2c1ad7")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 50.8 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5b058a7-a613-4860-ae86-0bfc6a0f779a")
-		(property "Reference" "K2"
-			(at 50.8 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 50.8 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f46216c2-a71d-455a-a557-9e3711931d52")
-		)
-		(pin "2"
-			(uuid "118cf16a-17fb-497d-980f-4e5b671a1ff4")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 243.84 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a845e981-64b3-44e5-aa72-3a5ed8169482")
-		(property "Reference" "K17"
-			(at 243.84 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 243.84 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 243.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9621b694-4932-4767-9168-ab42ac57a824")
-		)
-		(pin "2"
-			(uuid "a9ae127f-e2aa-4b4d-a835-f415ec4c4cc4")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 177.8 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b13a8943-4669-4f0b-a734-91864f5de067")
-		(property "Reference" "D10"
-			(at 177.8 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 177.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 177.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4de16484-f0f5-4f0e-84d3-f450b03ad557")
-		)
-		(pin "2"
-			(uuid "4e28d418-c299-4144-b8f1-0b7629b21a61")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 243.84 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b26fd511-5f87-4496-a090-894726c10230")
-		(property "Reference" "K18"
-			(at 243.84 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 243.84 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 243.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29eab34b-901a-4da1-888c-fca65bd22d62")
-		)
-		(pin "2"
-			(uuid "7dbbd304-baef-49be-9dfa-152758eeec15")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 129.54 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9091249-528a-4c61-9128-6de5ccd1242d")
-		(property "Reference" "K8"
-			(at 129.54 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 129.54 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 129.54 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a71ed45-7af8-435b-80c5-c3f9fa8208d5")
-		)
-		(pin "2"
-			(uuid "44aff3fe-9c81-48d1-a4c9-f231acd6044d")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 129.54 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beed2e0b-8e57-4657-b611-5bec02b0ce28")
-		(property "Reference" "K9"
-			(at 129.54 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 129.54 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8aaad072-da70-4095-9e46-1132a2501759")
-		)
-		(pin "2"
-			(uuid "f6926d4f-395d-4838-a41f-903b23fbd371")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d954a90b-ebf0-4b3a-a38f-87c2e9c8e8f9")
-		(property "Reference" "K6"
-			(at 91.44 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 91.44 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 91.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b380008a-47b2-4cfa-86ea-d2ec6be3835b")
-		)
-		(pin "2"
-			(uuid "54193845-d235-40b4-b662-9024dd466839")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 243.84 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e329b5be-76c0-49be-b96a-9ccb1acf4d4c")
-		(property "Reference" "K16"
-			(at 243.84 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 243.84 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 243.84 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b862f9f-06fa-4cc7-a638-c57fbd407fe1")
-		)
-		(pin "2"
-			(uuid "5eca5223-87b2-41ac-8ea4-994323bd3225")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 60.96 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee85cbeb-b1d6-4c15-83ef-777062e8980c")
-		(property "Reference" "D2"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 60.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d9fa12f-3b33-4951-b8cb-005856a23c81")
-		)
-		(pin "2"
-			(uuid "44ca6399-c0d9-4062-b568-0efe59fff30d")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 177.8 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f10caaac-1057-447b-a74f-147ca0d328e1")
-		(property "Reference" "D12"
-			(at 177.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 177.8 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 177.8 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "accbc89d-354e-4bfc-a402-d03ca1a14523")
-		)
-		(pin "2"
-			(uuid "a43bf546-2032-465f-bc10-2a196657b0cd")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:DIODE")
-		(at 60.96 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbb8241a-f0a6-4b73-8795-d177f9c48ec4")
-		(property "Reference" "D3"
-			(at 60.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE"
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keebio:Diode-dual"
-			(at 60.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db37d217-0889-4f7d-8422-8ef5490088cf")
-		)
-		(pin "2"
-			(uuid "0e25a964-06e9-44af-b3ac-900a1538542e")
-		)
-		(instances
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "D3")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 45.085 115.57)
-		(size 24.765 17.78)
+		(at 209.55 33.655)
+		(size 29.21 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3659,9 +1716,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "fc073b32-3516-47a2-b7fe-c6a183bbcdfa")
-		(property "Sheetname" "KeySwitch_RGB"
-			(at 45.085 114.8584 0)
+		(uuid "0fe1b816-57da-4758-865a-912a1da680bd")
+		(property "Sheetname" "KeySwitch_RGB_1_1"
+			(at 209.55 32.9434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +1727,7 @@
 			)
 		)
 		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
-			(at 45.085 133.9346 0)
+			(at 209.55 45.6696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,10 +1735,1376 @@
 				(justify left top)
 			)
 		)
+		(pin "LED_In" input
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a03a112-7396-4c0a-b14a-85b093019edf")
+		)
+		(pin "Col" input
+			(at 238.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c98685f9-eec4-443d-9df3-1e748b29d4ca")
+		)
+		(pin "LED_Out" input
+			(at 209.55 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8770174a-a558-4550-a887-98699af4210e")
+		)
+		(pin "Row" input
+			(at 209.55 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82418599-3452-456d-a764-ee481067aa01")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 84.455)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17124f3f-396a-4ffa-9888-47eec27ffc92")
+		(property "Sheetname" "KeySwitch_RGB_1_3"
+			(at 209.55 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 209.55 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 238.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cae04c73-bd8b-43f9-afa1-63fc9519aca6")
+		)
+		(pin "Col" input
+			(at 238.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da0d542a-7e7d-4f3e-b608-7890a3274038")
+		)
+		(pin "LED_Out" input
+			(at 209.55 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "646410e9-df86-47a8-8158-ee30fbbcae57")
+		)
+		(pin "Row" input
+			(at 209.55 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2c4e674e-ab1e-4a7d-945c-946a36ac431d")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 59.055)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30ccafa7-79dc-4044-8256-f90dbfa6b4fc")
+		(property "Sheetname" "KeySwitch_RGB_6_2"
+			(at 38.1 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 38.1 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 38.1 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "48dea6f2-5ef0-4dfb-8f48-7f01689a022e")
+		)
+		(pin "Col" input
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "472aa1db-0590-4efa-8037-c5533416e8cf")
+		)
+		(pin "LED_Out" input
+			(at 67.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87c9edd9-e77c-4f0c-b43a-99cbc26cbaa1")
+		)
+		(pin "Row" input
+			(at 38.1 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "544c490e-6c32-4920-b692-fa526974959c")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 84.455)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c42f885-b8c7-42a1-94b8-e6212fe5551a")
+		(property "Sheetname" "KeySwitch_RGB_3_3"
+			(at 140.97 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 140.97 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e673f69-3af6-4670-9fb5-82ad63e3a423")
+		)
+		(pin "Col" input
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea28d65c-157a-43f1-b828-75d04ddda666")
+		)
+		(pin "LED_Out" input
+			(at 140.97 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc6b448f-1496-4152-a353-32aa64e6907c")
+		)
+		(pin "Row" input
+			(at 140.97 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a2d7659-67d4-423c-a596-93c4d9868eb1")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 84.455)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cedff79-149d-45be-ba29-a3574a1bc619")
+		(property "Sheetname" "KeySwitch_RGB_4_3"
+			(at 106.68 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 106.68 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9f73bb5-7e99-4b15-9841-714f624ba9f3")
+		)
+		(pin "Col" input
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fd291b3-5586-4b36-b486-d49bf8e1f0d0")
+		)
+		(pin "LED_Out" input
+			(at 106.68 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2bf0d89-a37a-4d6e-add4-3ad2a46668b9")
+		)
+		(pin "Row" input
+			(at 106.68 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98c48a0a-43dc-480a-bf8a-74eed6f7411f")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 59.055)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83e6d0c2-61c7-45e8-bf6a-a4872c6f6ee7")
+		(property "Sheetname" "KeySwitch_RGB_1_2"
+			(at 209.55 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 209.55 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 209.55 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5f323ad-a4c2-483a-907a-16ed32bb2bc7")
+		)
+		(pin "Col" input
+			(at 238.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d234326-3b84-4566-b95c-b4b0c5e35e72")
+		)
+		(pin "LED_Out" input
+			(at 238.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "044e7527-1586-4bfd-a135-8c4d4ab3ca21")
+		)
+		(pin "Row" input
+			(at 209.55 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cbaa129f-7635-4fdf-8245-c6871e776673")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 33.655)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9646306e-afe0-4567-892c-1cc843c9517a")
+		(property "Sheetname" "KeySwitch_RGB_4_1"
+			(at 106.68 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 106.68 45.6696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b0a8357a-5cc1-4b0f-9149-ad1270559d8f")
+		)
+		(pin "Col" input
+			(at 135.89 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11735e84-7dbb-47b7-9347-840e8ebcf954")
+		)
+		(pin "LED_Out" input
+			(at 106.68 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "890e203a-2d57-4d8f-9111-3a15deb3b710")
+		)
+		(pin "Row" input
+			(at 106.68 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0983a4e4-e55f-4f07-a600-090ce75e472f")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 33.655)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fdd3845-26dd-4210-8246-d5eb76feb287")
+		(property "Sheetname" "KeySwitch_RGB_2_1"
+			(at 175.26 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 175.26 45.6696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89bf78a8-dde5-4eb6-b8f1-8484ca0bb313")
+		)
+		(pin "Col" input
+			(at 204.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0964221-5f8d-4f83-b15e-e972503c7577")
+		)
+		(pin "LED_Out" input
+			(at 175.26 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77ebf194-71bd-426a-abed-2b9dbd55a770")
+		)
+		(pin "Row" input
+			(at 175.26 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fa5c2ab-f490-4949-b022-1b6a8911fa7d")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 84.455)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa1bfbde-a87b-4c55-887b-5091d93d70fb")
+		(property "Sheetname" "KeySwitch_RGB_2_3"
+			(at 175.26 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 175.26 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7e77126-f72f-4446-b8f4-49b4a23eeb8e")
+		)
+		(pin "Col" input
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "764e0478-1757-4d16-97e8-0a536d2e0187")
+		)
+		(pin "LED_Out" input
+			(at 175.26 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87a2481d-e743-43f6-9169-0eaa90265e03")
+		)
+		(pin "Row" input
+			(at 175.26 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0a87edb-543a-408a-a6dd-eb958e8441f2")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 59.055)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be806749-86c7-444d-8bda-68b655597042")
+		(property "Sheetname" "KeySwitch_RGB_3_2"
+			(at 140.97 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 140.97 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 140.97 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc64614c-7de4-46e1-a443-1942a129284b")
+		)
+		(pin "Col" input
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0cfc0fa4-62d2-4496-a010-5a1a89b8ce8f")
+		)
+		(pin "LED_Out" input
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aeb92565-d3cc-4a33-a775-f03aafb495b6")
+		)
+		(pin "Row" input
+			(at 140.97 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ccce1ccc-470c-41f8-afe8-8031a8c76ec0")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 84.455)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9a76fa1-1351-4d9b-b116-3937058819bd")
+		(property "Sheetname" "KeySwitch_RGB_5_3"
+			(at 72.39 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 72.39 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acfb9e83-5bb8-4d0b-a96b-2bc9bac5412f")
+		)
+		(pin "Col" input
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "669112e5-98ee-4d86-83cb-a870dab8ad5b")
+		)
+		(pin "LED_Out" input
+			(at 72.39 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5fd1a6c-c1a8-420f-a9bc-a99b52db8cbb")
+		)
+		(pin "Row" input
+			(at 72.39 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5de50a0c-b769-4e0c-bd59-25fbd2757689")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 59.055)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dddeff84-e3f8-4399-bb18-b722ee35f1d3")
+		(property "Sheetname" "KeySwitch_RGB_2_2"
+			(at 175.26 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 175.26 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 175.26 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "00ae50f4-5d91-4cfa-8425-9f75be123272")
+		)
+		(pin "Col" input
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4ade755-62c5-4b06-9b77-632626b38a0d")
+		)
+		(pin "LED_Out" input
+			(at 204.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "123c4b57-fa91-4167-8230-a83f90bb2153")
+		)
+		(pin "Row" input
+			(at 175.26 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "035b0be2-1bab-4ec2-b730-277089f430c1")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 59.055)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de4f05d2-bd4e-48bc-81d7-196364ec3ae3")
+		(property "Sheetname" "KeySwitch_RGB_4_2"
+			(at 106.68 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 106.68 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 106.68 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73fea29c-e8b6-4c64-987c-0d43174c03b0")
+		)
+		(pin "Col" input
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08c69b76-8ac3-4312-8052-743ba75b3f80")
+		)
+		(pin "LED_Out" input
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1dd867fe-7a96-4ef9-bbab-c4a1ed32cdd4")
+		)
+		(pin "Row" input
+			(at 106.68 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7830f45b-0ff1-43aa-b95f-25794b3888ae")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 33.655)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df2afecb-a1e9-4e26-9d31-03feeff1b88a")
+		(property "Sheetname" "KeySwitch_RGB_6_1"
+			(at 38.1 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 38.1 45.6696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 67.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d3c9cc7-1538-4059-9396-f93d25ee3a88")
+		)
+		(pin "Col" input
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82d96ba8-6437-4a4c-807f-93a2123af012")
+		)
+		(pin "LED_Out" input
+			(at 38.1 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7aca4d99-26e4-4b16-89c9-84c21d3f5216")
+		)
+		(pin "Row" input
+			(at 38.1 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "965a4554-1ccf-4bb8-afc1-ed836d3bcacc")
+		)
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 33.655)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df3cfbf1-0c5f-4007-a2d6-93be5fd35d66")
+		(property "Sheetname" "KeySwitch_RGB_5_1"
+			(at 72.39 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 72.39 45.6696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4715e438-871f-48d3-ac73-8f2d17b60bf2")
+		)
+		(pin "Col" input
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "469a06fe-03ab-447b-9da2-c778578b3a28")
+		)
+		(pin "LED_Out" input
+			(at 72.39 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4d783e1-2857-43e5-ac4b-734d76ddd7d5")
+		)
+		(pin "Row" input
+			(at 72.39 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b18b154-ab50-4bcb-ad36-1a817d1f09c3")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 33.655)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5cab2cf-4882-47c1-bf96-24db8f5e192d")
+		(property "Sheetname" "KeySwitch_RGB_3_1"
+			(at 140.97 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 140.97 45.6696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 170.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c26e4e13-0dc0-4196-99ee-da7e1ea29499")
+		)
+		(pin "Col" input
+			(at 170.18 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1b60fc10-1662-48f4-808c-4e37e36cdc32")
+		)
+		(pin "LED_Out" input
+			(at 140.97 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bdb0073c-cc0d-46d7-aa63-6d497d045dfd")
+		)
+		(pin "Row" input
+			(at 140.97 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d323ce04-4c8b-4912-a7f5-26edf235013a")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 59.055)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8befe47-6e74-4ebf-abd9-88ec11496fd0")
+		(property "Sheetname" "KeySwitch_RGB_5_2"
+			(at 72.39 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 72.39 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 72.39 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2aa6660-eebe-4f8e-b0d7-f8c116343e55")
+		)
+		(pin "Col" input
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54013a93-aaea-4c95-9119-4bd4adb9c7c4")
+		)
+		(pin "LED_Out" input
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "608a3004-2b41-46ae-b3f0-74f278bbf6db")
+		)
+		(pin "Row" input
+			(at 72.39 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cbf5c86a-b978-4acb-9628-ea5152d4c649")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 84.455)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ecd8499d-49b6-44c2-8520-72d99de5550c")
+		(property "Sheetname" "KeySwitch_RGB_6_3"
+			(at 38.1 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeySwitch_RGB.kicad_sch"
+			(at 38.1 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_In" input
+			(at 67.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9169b35a-6ead-4174-9cbc-fbcbaf549216")
+		)
+		(pin "Col" input
+			(at 67.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a80b852-ff1b-48b2-96f6-582c8b5c11df")
+		)
+		(pin "LED_Out" input
+			(at 38.1 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f4390f7-80f6-4220-9a10-eb2e5f2e6c97")
+		)
+		(pin "Row" input
+			(at 38.1 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7fa13df-9a4b-44ea-87b9-c087eb03bac3")
+		)
+		(instances
+			(project "cheapino"
+				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
+					(page "23")
 				)
 			)
 		)
