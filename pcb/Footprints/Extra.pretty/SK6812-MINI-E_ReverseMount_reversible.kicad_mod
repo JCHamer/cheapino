@@ -1,0 +1,250 @@
+(footprint "SK6812-MINI-E_ReverseMount_reversible"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.55 2.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e8d81b08-9c32-4451-9827-0b98e39d5733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812-MINI-E_ReverseMount_reversible"
+		(at 0 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "465b3cdc-12c1-488b-af10-683b91fe78c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5177aeed-c8d5-48bf-9954-990e40b0fe33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d1b3db8-6e9e-45b5-af64-f9110e3d0fb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4372660-559a-4330-a8a3-ff06d221cc5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 2.725 1.5) (xy 2.125 1.5) (xy 2.125 2.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "b4dbbadf-6b44-4e44-bcb6-9605b7b00619")
+	)
+	(fp_poly
+		(pts
+			(xy -2.725 1.5) (xy -2.125 1.5) (xy -2.125 2.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "fe4f8725-9151-4fe6-9a92-63574736d2f5")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d6cac7c5-898e-48eb-a848-8efc825f55a8")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end -1.6 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9522b533-99ec-479c-8882-a99d9c88b870")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fe8a3d20-4dac-4d15-bc59-4016cc3f7410")
+	)
+	(fp_line
+		(start 1.6 1.4)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ed404ac3-cf85-4ff4-8d55-de9c22e595ae")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b8149a4-9844-4b95-941f-236b288853ea")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ce47bdf7-90ff-47a1-91f1-4cf175e0e34d")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "99654820-3473-4fdd-8934-bd84cebde5b9")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9b1d0ae0-99b9-4f20-a527-f89b198a7a30")
+	)
+	(fp_text user "REF**"
+		(at 0.55 2.45 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c75a38b4-4a85-4258-8686-08cb6da16713")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.6 0.75)
+		(size 1.65 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a67c2e92-5e66-41ad-8275-fc223beb6853")
+	)
+	(pad "1" smd rect
+		(at 2.6 0.75)
+		(size 1.65 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "9aa57183-30f9-4301-9a46-52bf11d123fd")
+	)
+	(pad "2" smd roundrect
+		(at -2.6 -0.75)
+		(size 1.65 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d27562ee-8512-4221-b83f-81e2d9583be5")
+	)
+	(pad "2" smd roundrect
+		(at 2.6 -0.75)
+		(size 1.65 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3dc34f60-5974-4d4d-a059-ad5b38251ca0")
+	)
+	(pad "3" smd roundrect
+		(at -2.6 -0.75)
+		(size 1.65 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3c5bbbd6-4285-442e-9a6f-c60345c760b8")
+	)
+	(pad "3" smd roundrect
+		(at 2.6 -0.75)
+		(size 1.65 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "28bb1ee1-ae8f-4d2d-a2a7-68c8bc706c51")
+	)
+	(pad "4" smd roundrect
+		(at -2.6 0.75)
+		(size 1.65 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "fd9c440a-9a31-43f0-bbcc-de852cffc649")
+	)
+	(pad "4" smd roundrect
+		(at 2.6 0.75)
+		(size 1.65 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8f67f2da-e659-486c-8c94-7ff71c82c403")
+	)
+	(model "/home/jonathan/Programming/Workspace/KiCAD/GlobalParts/Footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
+)

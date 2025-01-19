@@ -244,6 +244,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 57.15) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b36ee1-4957-4f3b-8073-f959c71dc89f")
+	)
+	(wire
+		(pts
 			(xy 152.4 71.12) (xy 165.1 71.12)
 		)
 		(stroke
@@ -334,7 +344,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 53.34) (xy 180.34 53.34)
+			(xy 152.4 52.07) (xy 180.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1629,7 @@
 			(uuid "e6a08d2b-8361-4ec3-9250-398a2d881d44")
 		)
 		(pin "UART0_TX" input
-			(at 152.4 53.34 0)
+			(at 152.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,6 +1728,16 @@
 			)
 			(uuid "517d73eb-7b0b-4c4b-bb9b-94ef3f5d9238")
 		)
+		(pin "VBUS_Sense" input
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f19720c-937b-450e-b2d2-c94bc17cff10")
+		)
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f"
@@ -1807,7 +1827,7 @@
 			(uuid "7ba2327c-38f8-48fc-9bac-117e5596efb2")
 		)
 		(pin "UART_Tx" input
-			(at 180.34 53.34 180)
+			(at 180.34 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,6 +1835,16 @@
 				(justify left)
 			)
 			(uuid "c96dbb35-314b-4851-acd6-19e503009c61")
+		)
+		(pin "VBUS_Sense" input
+			(at 180.34 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "868504ab-5b53-47f5-93a4-5b91a9088f52")
 		)
 		(instances
 			(project "cheapino"

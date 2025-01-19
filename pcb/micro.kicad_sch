@@ -2488,76 +2488,72 @@
 		(uuid "05cfa697-7596-4989-b930-bd0c6bbca268")
 	)
 	(no_connect
-		(at 177.8 115.57)
-		(uuid "09ea484d-6f74-4251-896d-c9657ce0f8fc")
-	)
-	(no_connect
 		(at 177.8 102.87)
 		(uuid "0baacec0-68ad-439c-b46c-ee50fe777f5f")
-	)
-	(no_connect
-		(at 177.8 74.93)
-		(uuid "0cff4233-f740-45af-a48b-f444a5d43287")
 	)
 	(no_connect
 		(at 177.8 100.33)
 		(uuid "1aee130a-0a27-45c3-b164-13b17b7340fc")
 	)
 	(no_connect
-		(at 177.8 82.55)
-		(uuid "2401cd46-8a1c-49ad-95e4-38094aed0359")
+		(at 177.8 95.25)
+		(uuid "23cb5c32-6f69-4141-9571-b27facad7ef7")
 	)
 	(no_connect
-		(at 177.8 80.01)
-		(uuid "2be70b0d-eb6c-4053-a9ae-1ab50eb7a2fc")
+		(at 177.8 67.31)
+		(uuid "2c982fb8-b333-430b-ab03-6ab4f86505c2")
 	)
 	(no_connect
-		(at 177.8 69.85)
-		(uuid "3b188be8-ccd5-4af9-a0d9-657350ac6b34")
+		(at 177.8 123.19)
+		(uuid "394060bd-7a1d-4b6b-8d69-d8ad8cd944e9")
 	)
 	(no_connect
-		(at 177.8 87.63)
-		(uuid "5c3d615e-7083-4022-ba08-8d449fbce70b")
+		(at 177.8 125.73)
+		(uuid "5238f401-8171-454d-9095-d85395a1ac98")
+	)
+	(no_connect
+		(at 177.8 130.81)
+		(uuid "52de2901-7982-4cd4-a150-0d00c5b43e34")
 	)
 	(no_connect
 		(at 35.56 148.59)
 		(uuid "5fb09382-a20c-48b7-89cc-30f61a338f53")
 	)
 	(no_connect
-		(at 77.47 34.29)
-		(uuid "8004bac2-a8e0-48f0-92e5-949dcbf6edc0")
+		(at 177.8 128.27)
+		(uuid "6a1f0665-b622-4759-a016-5deadd103df6")
 	)
 	(no_connect
-		(at 177.8 77.47)
-		(uuid "857d6750-f506-4db2-9f37-f9465ccb3504")
+		(at 77.47 34.29)
+		(uuid "8004bac2-a8e0-48f0-92e5-949dcbf6edc0")
 	)
 	(no_connect
 		(at 177.8 113.03)
 		(uuid "98a818ee-0add-46b5-8cde-e76cd250ace2")
 	)
 	(no_connect
-		(at 177.8 85.09)
-		(uuid "a59607db-08be-4866-b733-cca476e7328a")
+		(at 177.8 62.23)
+		(uuid "a0716226-d290-4ebd-a819-93a15d55e9ab")
 	)
 	(no_connect
 		(at 177.8 118.11)
 		(uuid "a8362efb-d3fd-4b67-af60-c43cb4d31ca9")
 	)
 	(no_connect
+		(at 177.8 59.69)
+		(uuid "ab1b8a94-ebe0-472f-9629-141faf329577")
+	)
+	(no_connect
 		(at 177.8 105.41)
 		(uuid "ac77e4d7-9ec6-4b08-9384-6c585f846c2d")
 	)
 	(no_connect
-		(at 177.8 110.49)
-		(uuid "d4bd2e29-46e2-4f1e-ab2f-e38e2a10724f")
+		(at 177.8 85.09)
+		(uuid "e3700a73-2229-4a14-bb6f-1809c14b268c")
 	)
 	(no_connect
 		(at 177.8 107.95)
 		(uuid "f74c73aa-07d9-4729-8ed0-26ef53455834")
-	)
-	(no_connect
-		(at 177.8 72.39)
-		(uuid "fe2e5404-e4f6-4da4-9168-b4d4f0c28b94")
 	)
 	(wire
 		(pts
@@ -3471,7 +3467,7 @@
 	)
 	(hierarchical_label "ROW_1"
 		(shape input)
-		(at 177.8 125.73 0)
+		(at 177.8 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3483,7 +3479,7 @@
 	)
 	(hierarchical_label "COL_1"
 		(shape input)
-		(at 177.8 90.17 0)
+		(at 177.8 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3517,6 +3513,18 @@
 		)
 		(uuid "5de87b0b-3819-450b-bf41-4f43ebc66e3d")
 	)
+	(hierarchical_label "VBUS_Sense"
+		(shape input)
+		(at 177.8 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66e6308e-769c-44a8-9905-6cf9254218b6")
+	)
 	(hierarchical_label "UART0_RX"
 		(shape input)
 		(at 177.8 57.15 0)
@@ -3543,7 +3551,7 @@
 	)
 	(hierarchical_label "COL_4"
 		(shape input)
-		(at 207.01 119.38 0)
+		(at 177.8 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3555,7 +3563,7 @@
 	)
 	(hierarchical_label "ROW_2"
 		(shape input)
-		(at 177.8 128.27 0)
+		(at 177.8 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3567,7 +3575,7 @@
 	)
 	(hierarchical_label "ROW_3"
 		(shape input)
-		(at 177.8 130.81 0)
+		(at 177.8 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3579,7 +3587,7 @@
 	)
 	(hierarchical_label "COL_5"
 		(shape input)
-		(at 207.01 121.92 0)
+		(at 177.8 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3603,7 +3611,7 @@
 	)
 	(hierarchical_label "COL_3"
 		(shape input)
-		(at 177.8 123.19 0)
+		(at 177.8 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3615,7 +3623,7 @@
 	)
 	(hierarchical_label "COL_2"
 		(shape input)
-		(at 177.8 92.71 0)
+		(at 177.8 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3627,7 +3635,7 @@
 	)
 	(hierarchical_label "Underglow_LED_3V3"
 		(shape input)
-		(at 199.39 100.33 0)
+		(at 177.8 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3639,7 +3647,7 @@
 	)
 	(hierarchical_label "COL_6"
 		(shape input)
-		(at 207.01 124.46 0)
+		(at 177.8 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3651,7 +3659,7 @@
 	)
 	(hierarchical_label "Per-Key_LED_3V3"
 		(shape input)
-		(at 177.8 95.25 0)
+		(at 177.8 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3743,7 +3751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "023b0126-043a-4904-85ba-09cf585d8040")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 107.95 161.2899 0)
 			(effects
 				(font
@@ -3815,7 +3823,7 @@
 		(instances
 			(project ""
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/b2f85b86-5933-4a5f-88c2-315afb4ca3cd"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6094,7 +6102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5bfe35f-a66f-4d07-845f-c8e334c41ca7")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 73.66 142.24 90)
 			(effects
 				(font
@@ -6146,7 +6154,7 @@
 		(instances
 			(project ""
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/b2f85b86-5933-4a5f-88c2-315afb4ca3cd"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7965477-50de-49ec-81c6-dcf81637eb0a")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 88.9 148.5899 0)
 			(effects
 				(font
@@ -6496,7 +6504,7 @@
 		(instances
 			(project ""
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/b2f85b86-5933-4a5f-88c2-315afb4ca3cd"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
