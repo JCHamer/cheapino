@@ -1,0 +1,102 @@
+{
+  "subpcb": {
+    "Underglow_LED.kicad_pcb": {
+      "anchor": "D1"
+    },
+    "KeySwitch_RGB.kicad_pcb": {
+      "anchor": "K1"
+    },
+    "cheapino.kicad_pcb": {
+      "anchor": "K16"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/23d46689-c88a-4d8a-9ead-5dd5573c8b8b": {
+      "checked": false
+    },
+    "/23d46689-c88a-4d8a-9ead-5dd5573c8b8b/1ad76d81-e86d-4509-bc38-2c32013f9fd6": {
+      "checked": true
+    },
+    "/23d46689-c88a-4d8a-9ead-5dd5573c8b8b/1e591b65-4232-4113-a19d-00403ec31ed9": {
+      "checked": true
+    },
+    "/23d46689-c88a-4d8a-9ead-5dd5573c8b8b/27d3218d-ac27-47e0-8dbd-355eb79bb7e2": {
+      "checked": true
+    },
+    "/23d46689-c88a-4d8a-9ead-5dd5573c8b8b/6e6f60cc-a36a-4146-a01e-ab9e152d3b32": {
+      "checked": true
+    },
+    "/23d46689-c88a-4d8a-9ead-5dd5573c8b8b/db7801ef-1df2-482f-9812-1c0113935df3": {
+      "checked": true
+    },
+    "/23d46689-c88a-4d8a-9ead-5dd5573c8b8b/df4eda55-b03d-4c57-9e10-132b3a5b4c52": {
+      "checked": true
+    },
+    "/b2f85b86-5933-4a5f-88c2-315afb4ca3cd": {
+      "checked": false
+    },
+    "/e6ab333d-5f1a-4b76-81c6-498aebdc0c3b": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/0fe1b816-57da-4758-865a-912a1da680bd": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/17124f3f-396a-4ffa-9888-47eec27ffc92": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/30ccafa7-79dc-4044-8256-f90dbfa6b4fc": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/3c42f885-b8c7-42a1-94b8-e6212fe5551a": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/6cedff79-149d-45be-ba29-a3574a1bc619": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/83e6d0c2-61c7-45e8-bf6a-a4872c6f6ee7": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/9646306e-afe0-4567-892c-1cc843c9517a": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/9fdd3845-26dd-4210-8246-d5eb76feb287": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/aa1bfbde-a87b-4c55-887b-5091d93d70fb": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/be806749-86c7-444d-8bda-68b655597042": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/d9a76fa1-1351-4d9b-b116-3937058819bd": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/dddeff84-e3f8-4399-bb18-b722ee35f1d3": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/de4f05d2-bd4e-48bc-81d7-196364ec3ae3": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/df2afecb-a1e9-4e26-9d31-03feeff1b88a": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/df3cfbf1-0c5f-4007-a2d6-93be5fd35d66": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/e5cab2cf-4882-47c1-bf96-24db8f5e192d": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/e8befe47-6e74-4ebf-abd9-88ec11496fd0": {
+      "checked": false
+    },
+    "/ef93f48f-e975-41f5-b90d-770a980a84dd/ecd8499d-49b6-44c2-8520-72d99de5550c": {
+      "checked": false
+    }
+  }
+}

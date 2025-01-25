@@ -1,0 +1,271 @@
+Plugin v0.0.1 running on KiCad 8.0.6 and Python 3.12.7 (main, Oct  1 2024, 11:15:50) [GCC 14.2.1 20240910] on linux.
+Imported /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb, with 3 footprints, 0 tracks, and 0 drawings.
+Imported /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb, with 6 footprints, 0 tracks, and 0 drawings.
+Imported /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/cheapino.kicad_pcb, with 191 footprints, 0 tracks, and 49 drawings.
+Root (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/cheapino.kicad_pcb)
+├─ Lighting
+│  ├─ Underglow_LED0 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb)
+│  ├─ Underglow_LED1 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb)
+│  ├─ Underglow_LED5 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb)
+│  ├─ Underglow_LED3 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb)
+│  ├─ Underglow_LED2 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb)
+│  ├─ Underglow_LED4 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb)
+├─ Microcontroller
+├─ ExtConnectors
+├─ KeySwitches
+│  ├─ KeySwitch_RGB_1_1 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_1_3 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_6_2 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_3_3 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_4_3 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_1_2 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_4_1 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_2_1 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_2_3 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_3_2 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_5_3 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_2_2 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_4_2 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_6_1 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_5_1 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_3_1 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_5_2 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+│  ├─ KeySwitch_RGB_6_3 (+ PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb)
+PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb
+  /cdf7d856: D1
+  /00752ed9: C1
+  /07be4288: C2
+PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb
+  /b1eb623a: C1
+  /ebd59da3: D1
+  /2996ad77: D2
+  /c0ea8999: K1
+  /8d57feea: C2
+  /09999237: D3
+PCB /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/cheapino.kicad_pcb
+  /23d46689/27d3218d/cdf7d856: D14
+  /23d46689/df4eda55/cdf7d856: D12
+  /23d46689/6e6f60cc/cdf7d856: D10
+  /23d46689/db7801ef/cdf7d856: D8
+  /23d46689/1e591b65/cdf7d856: D6
+  /23d46689/1ad76d81/cdf7d856: D2
+  /23d46689/27d3218d/07be4288: C65
+  /23d46689/df4eda55/07be4288: C63
+  /23d46689/6e6f60cc/07be4288: C62
+  /23d46689/db7801ef/07be4288: C61
+  /23d46689/1e591b65/07be4288: C60
+  /23d46689/1ad76d81/07be4288: C59
+  /ef93f48f/de4f05d2/c0ea8999: K9
+  /ef93f48f/df3cfbf1/c0ea8999: K1
+  /ef93f48f/aa1bfbde/2996ad77: D92
+  /ef93f48f/9fdd3845/ebd59da3: D9
+  /23d46689/27d3218d/00752ed9: C40
+  /ef93f48f/17124f3f/ebd59da3: D25
+  /b2f85b86/b31c96f3: C8
+  /b34632a7: H2
+  /ef93f48f/d9a76fa1/2996ad77: D95
+  /23d46689/6e6f60cc/00752ed9: C38
+  /ef93f48f/83e6d0c2/2996ad77: D85
+  /e6ab333d/24f6f185: R14
+  /23d46689/1ad76d81/00752ed9: C35
+  /ef93f48f/dddeff84/c0ea8999: K8
+  /ef93f48f/df2afecb/c0ea8999: K2
+  /ef93f48f/de4f05d2/ebd59da3: D17
+  /ef93f48f/dddeff84/2996ad77: D86
+  /ef93f48f/df2afecb/b1eb623a: C42
+  /ef93f48f/be806749/2996ad77: D88
+  /23d46689/3a930ba8: R11
+  /ef93f48f/30ccafa7/ebd59da3: D23
+  /ef93f48f/d9a76fa1/b1eb623a: C57
+  /b2f85b86/0c30e6a0: C4
+  /b2f85b86/5721a1c6: R4
+  /e6ab333d/34221e7e: R2
+  /ef93f48f/e5cab2cf/ebd59da3: D7
+  /33d193de: H6
+  /b2f85b86/a5bfe35f: R9
+  /ef93f48f/aa1bfbde/ebd59da3: D27
+  /ef93f48f/d9a76fa1/ebd59da3: D33
+  /b2f85b86/95736f7f: C15
+  /e6ab333d/4f503580: U3
+  /ef93f48f/e8befe47/b1eb623a: C51
+  /23d46689/54676c20: R10
+  /ef93f48f/df2afecb/2996ad77: D45
+  /ef93f48f/ecd8499d/c0ea8999: K18
+  /ef93f48f/9fdd3845/c0ea8999: K5
+  /ef93f48f/e5cab2cf/c0ea8999: K4
+  /b2f85b86/67ec199e: C7
+  /b2f85b86/50726cbb: C12
+  /d6f3b8e3: FID2
+  /23d46689/df4eda55/00752ed9: C39
+  /ef93f48f/9fdd3845/2996ad77: D83
+  /b2f85b86/7f5bb86c: C11
+  /ef93f48f/83e6d0c2/c0ea8999: K7
+  /ef93f48f/0fe1b816/c0ea8999: K6
+  /e6ab333d/b5282910: U5
+  /b2f85b86/9b0720d0: C16
+  /ef93f48f/be806749/ebd59da3: D19
+  /ef93f48f/ecd8499d/b1eb623a: C58
+  /ef93f48f/0fe1b816/2996ad77: D84
+  /23d46689/c15bca5b: U8
+  /23d46689/1e591b65/00752ed9: C36
+  /ef93f48f/df3cfbf1/b1eb623a: C41
+  /e6ab333d/057d75e2: R18
+  /ef93f48f/e8befe47/ebd59da3: D21
+  /b2f85b86/e72a9aaa: R7
+  /b2f85b86/21be2866: R5
+  /b2f85b86/008ba9d4: Y1
+  /ef93f48f/aa1bfbde/c0ea8999: K14
+  /ef93f48f/9646306e/ebd59da3: D5
+  /e6ab333d/e3d3daf7: D43
+  /e6ab333d/a3d341df: C2
+  /ef93f48f/e8befe47/2996ad77: D89
+  /ef93f48f/30ccafa7/b1eb623a: C52
+  /23d46689/db7801ef/00752ed9: C37
+  /03f43e76: H4
+  /e6ab333d/7e8d7f90: J2
+  /ef93f48f/df2afecb/ebd59da3: D3
+  /ef93f48f/30ccafa7/2996ad77: D90
+  /e6ab333d/3f9e5a21: R16
+  /b2f85b86/1614b04d: C9
+  /ef93f48f/e5cab2cf/2996ad77: D82
+  /e6ab333d/6d324a16: R19
+  /ef93f48f/3c42f885/b1eb623a: C56
+  /726cc1da: FID1
+  /e6ab333d/28b53694: R1
+  /ef93f48f/6cedff79/b1eb623a: C55
+  /e6ab333d/a0cdc128: C1
+  /ef93f48f/be806749/c0ea8999: K10
+  /08aa7c4e: H8
+  /ef93f48f/d9a76fa1/c0ea8999: K17
+  /e6ab333d/0c90deae: J1
+  /e6ab333d/e16f1cae: R17
+  /b2f85b86/3dc7c463: C10
+  /e6ab333d/6a963d07: R3
+  /ef93f48f/ecd8499d/ebd59da3: D35
+  /ef93f48f/3c42f885/c0ea8999: K16
+  /ef93f48f/6cedff79/c0ea8999: K15
+  /ef93f48f/6cedff79/2996ad77: D93
+  /ef93f48f/dddeff84/b1eb623a: C48
+  /b2f85b86/e965c53f: C6
+  /b2f85b86/f525e1f2: C5
+  /6408a85b: H7
+  /95481933: H5
+  /ef93f48f/dddeff84/ebd59da3: D15
+  /23d46689/68cdc090: U7
+  /b2f85b86/aae3a00b: C14
+  /e6ab333d/4b18a8a7: J3
+  /b2f85b86/5425afd2: SW2
+  /ef93f48f/9977f95b: R12
+  /ef93f48f/3c42f885/2996ad77: D94
+  /b2f85b86/6f6a2ee6: R6
+  /ef93f48f/de4f05d2/b1eb623a: C49
+  /ef93f48f/be806749/b1eb623a: C50
+  /ef93f48f/9fdd3845/b1eb623a: C45
+  /ef93f48f/0fe1b816/ebd59da3: D11
+  /ef93f48f/30ccafa7/c0ea8999: K12
+  /d17d4225: H1
+  /ef93f48f/9646306e/b1eb623a: C43
+  /ef93f48f/9646306e/2996ad77: D81
+  /ef93f48f/de4f05d2/2996ad77: D87
+  /b2f85b86/023b0126: U2
+  /ef93f48f/0fe1b816/b1eb623a: C46
+  /ef93f48f/df3cfbf1/2996ad77: D63
+  /b2f85b86/cd678c7b: C13
+  /ae5ff0b1: FID3
+  /ef93f48f/aa1bfbde/b1eb623a: C54
+  /ef93f48f/6cedff79/ebd59da3: D29
+  /b2f85b86/1ee0d25b: U1
+  /ef93f48f/17124f3f/b1eb623a: C53
+  /ef93f48f/9b9354be: R13
+  /ef93f48f/17124f3f/2996ad77: D91
+  /ef93f48f/83e6d0c2/ebd59da3: D13
+  /2b09816d: H9
+  /ef93f48f/17124f3f/c0ea8999: K13
+  /ef93f48f/ecd8499d/2996ad77: D96
+  /ef93f48f/9646306e/c0ea8999: K3
+  /ef93f48f/e8befe47/c0ea8999: K11
+  /ef93f48f/df3cfbf1/ebd59da3: D1
+  /b2f85b86/c3ab691e: SW1
+  /e6ab333d/60cf749f: U6
+  /b2f85b86/d211bf6d: C3
+  /ef93f48f/e5cab2cf/b1eb623a: C44
+  /ef93f48f/3c42f885/ebd59da3: D31
+  /ef93f48f/83e6d0c2/b1eb623a: C47
+  /f96e34a4: H3
+  /e6ab333d/4f5141b1: R15
+  /ef93f48f/6cedff79/8d57feea: C31
+  /ef93f48f/30ccafa7/8d57feea: C28
+  /b2f85b86/c7965477: R8
+  /ef93f48f/de4f05d2/09999237: D70
+  /ef93f48f/3c42f885/8d57feea: C32
+  /ef93f48f/17124f3f/8d57feea: C29
+  /ef93f48f/9646306e/09999237: D64
+  /2bbddd12: FID6
+  /ef93f48f/dddeff84/09999237: D69
+  /ef93f48f/83e6d0c2/8d57feea: C23
+  /ef93f48f/df2afecb/09999237: D4
+  /ef93f48f/e8befe47/09999237: D72
+  /ef93f48f/ecd8499d/09999237: D79
+  /ef93f48f/be806749/8d57feea: C26
+  /ef93f48f/ecd8499d/8d57feea: C34
+  /ef93f48f/0fe1b816/09999237: D67
+  /ef93f48f/e5cab2cf/8d57feea: C20
+  /ef93f48f/9fdd3845/09999237: D66
+  /ef93f48f/df3cfbf1/09999237: D62
+  /ef93f48f/e8befe47/8d57feea: C27
+  /ef93f48f/0fe1b816/8d57feea: C22
+  /ef93f48f/3c42f885/09999237: D77
+  /5c1cf44f: FID5
+  /ef93f48f/aa1bfbde/09999237: D75
+  /ef93f48f/6cedff79/09999237: D76
+  /ef93f48f/9646306e/8d57feea: C19
+  /ef93f48f/dddeff84/8d57feea: C24
+  /ef93f48f/83e6d0c2/09999237: D68
+  /ef93f48f/e5cab2cf/09999237: D65
+  /ef93f48f/30ccafa7/09999237: D73
+  /ef93f48f/df2afecb/8d57feea: C18
+  /ef93f48f/be806749/09999237: D71
+  /ef93f48f/d9a76fa1/09999237: D78
+  /ef93f48f/df3cfbf1/8d57feea: C17
+  /ef93f48f/17124f3f/09999237: D74
+  /e6ab333d/36f39b83: U4
+  /8b77d0b4: FID4
+  /ef93f48f/de4f05d2/8d57feea: C25
+  /ef93f48f/d9a76fa1/8d57feea: C33
+  /ef93f48f/aa1bfbde/8d57feea: C30
+  /ef93f48f/9fdd3845/8d57feea: C21
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /23d46689-c88a-4d8a-9ead-5dd5573c8b8b: False.
+Checking /23d46689-c88a-4d8a-9ead-5dd5573c8b8b: False.
+Checking /23d46689-c88a-4d8a-9ead-5dd5573c8b8b: False.
+Checking /23d46689-c88a-4d8a-9ead-5dd5573c8b8b: False.
+Checking /23d46689-c88a-4d8a-9ead-5dd5573c8b8b: False.
+Checking /23d46689-c88a-4d8a-9ead-5dd5573c8b8b: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Checking /ef93f48f-e975-41f5-b90d-770a980a84dd: False.
+Selected for 0 : /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/KeySwitch_RGB.kicad_pcb
+Anchors  (K1): ['C1', 'C2', 'D1', 'D2', 'D3', 'K1']
+Selected for 1 : /home/jonathan/Programming/Workspace/Keyboards/jchamer_cheapino/pcb/Underglow_LED.kicad_pcb
+Anchors  (D1): ['C1', 'C2', 'D1']
+Saved.
