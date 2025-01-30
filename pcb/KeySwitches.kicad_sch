@@ -1579,7 +1579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9977f95b-dd34-47d0-9c2d-c604dd8b8b1a")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 246.38 30.48 90)
 			(effects
 				(font
@@ -1631,7 +1631,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1647,7 +1647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b9354be-30c2-48ec-8344-91b9f0b15813")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 30.48 81.28 90)
 			(effects
 				(font
@@ -1699,7 +1699,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1856,7 +1856,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "18")
+					(page "23")
 				)
 			)
 		)
@@ -1934,7 +1934,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "17")
+					(page "12")
 				)
 			)
 		)
@@ -2168,7 +2168,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "12")
+					(page "17")
 				)
 			)
 		)
@@ -2402,7 +2402,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "19")
+					(page "22")
 				)
 			)
 		)
@@ -2558,7 +2558,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "22")
+					(page "19")
 				)
 			)
 		)
@@ -2636,7 +2636,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "13")
+					(page "16")
 				)
 			)
 		)
@@ -2792,7 +2792,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -2870,7 +2870,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -3026,7 +3026,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "16")
+					(page "13")
 				)
 			)
 		)
@@ -3104,7 +3104,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(page "23")
+					(page "18")
 				)
 			)
 		)

@@ -1075,7 +1075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a930ba8-3018-4fa4-acce-4a77d688e1b7")
-		(property "Reference" "R11"
+		(property "Reference" "R19"
 			(at 194.31 71.12 90)
 			(effects
 				(font
@@ -1127,7 +1127,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/23d46689-c88a-4d8a-9ead-5dd5573c8b8b"
-					(reference "R11")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1209,7 +1209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54676c20-4923-498a-810a-58bb500edfa1")
-		(property "Reference" "R10"
+		(property "Reference" "R18"
 			(at 88.9 43.18 90)
 			(effects
 				(font
@@ -1261,7 +1261,7 @@
 		(instances
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/23d46689-c88a-4d8a-9ead-5dd5573c8b8b"
-					(reference "R10")
+					(reference "R18")
 					(unit 1)
 				)
 			)

@@ -614,24 +614,24 @@
       "Microcontroller"
     ],
     [
-      "ef93f48f-e975-41f5-b90d-770a980a84dd",
-      "KeySwitches"
-    ],
-    [
       "e6ab333d-5f1a-4b76-81c6-498aebdc0c3b",
       "ExtConnectors"
+    ],
+    [
+      "ef93f48f-e975-41f5-b90d-770a980a84dd",
+      "KeySwitches"
     ],
     [
       "23d46689-c88a-4d8a-9ead-5dd5573c8b8b",
       "Lighting"
     ],
     [
-      "df3cfbf1-0c5f-4007-a2d6-93be5fd35d66",
-      "KeySwitch_RGB_5_1"
-    ],
-    [
       "df2afecb-a1e9-4e26-9d31-03feeff1b88a",
       "KeySwitch_RGB_6_1"
+    ],
+    [
+      "df3cfbf1-0c5f-4007-a2d6-93be5fd35d66",
+      "KeySwitch_RGB_5_1"
     ],
     [
       "9646306e-afe0-4567-892c-1cc843c9517a",
@@ -650,12 +650,12 @@
       "KeySwitch_RGB_1_1"
     ],
     [
-      "83e6d0c2-61c7-45e8-bf6a-a4872c6f6ee7",
-      "KeySwitch_RGB_1_2"
+      "30ccafa7-79dc-4044-8256-f90dbfa6b4fc",
+      "KeySwitch_RGB_6_2"
     ],
     [
-      "dddeff84-e3f8-4399-bb18-b722ee35f1d3",
-      "KeySwitch_RGB_2_2"
+      "e8befe47-6e74-4ebf-abd9-88ec11496fd0",
+      "KeySwitch_RGB_5_2"
     ],
     [
       "de4f05d2-bd4e-48bc-81d7-196364ec3ae3",
@@ -666,20 +666,20 @@
       "KeySwitch_RGB_3_2"
     ],
     [
-      "e8befe47-6e74-4ebf-abd9-88ec11496fd0",
-      "KeySwitch_RGB_5_2"
+      "dddeff84-e3f8-4399-bb18-b722ee35f1d3",
+      "KeySwitch_RGB_2_2"
     ],
     [
-      "30ccafa7-79dc-4044-8256-f90dbfa6b4fc",
-      "KeySwitch_RGB_6_2"
+      "83e6d0c2-61c7-45e8-bf6a-a4872c6f6ee7",
+      "KeySwitch_RGB_1_2"
     ],
     [
-      "17124f3f-396a-4ffa-9888-47eec27ffc92",
-      "KeySwitch_RGB_1_3"
+      "ecd8499d-49b6-44c2-8520-72d99de5550c",
+      "KeySwitch_RGB_6_3"
     ],
     [
-      "aa1bfbde-a87b-4c55-887b-5091d93d70fb",
-      "KeySwitch_RGB_2_3"
+      "d9a76fa1-1351-4d9b-b116-3937058819bd",
+      "KeySwitch_RGB_5_3"
     ],
     [
       "6cedff79-149d-45be-ba29-a3574a1bc619",
@@ -690,12 +690,12 @@
       "KeySwitch_RGB_3_3"
     ],
     [
-      "d9a76fa1-1351-4d9b-b116-3937058819bd",
-      "KeySwitch_RGB_5_3"
+      "aa1bfbde-a87b-4c55-887b-5091d93d70fb",
+      "KeySwitch_RGB_2_3"
     ],
     [
-      "ecd8499d-49b6-44c2-8520-72d99de5550c",
-      "KeySwitch_RGB_6_3"
+      "17124f3f-396a-4ffa-9888-47eec27ffc92",
+      "KeySwitch_RGB_1_3"
     ],
     [
       "1ad76d81-e86d-4509-bc38-2c32013f9fd6",
